@@ -52,6 +52,5 @@ If you use this repository or the SleepQA dataset in your research or applicatio
   pdf = 	 {https://proceedings.mlr.press/v193/bojic22a/bojic22a.pdf},
   url = 	 {https://proceedings.mlr.press/v193/bojic22a.html}
 }
-
 ```
 
