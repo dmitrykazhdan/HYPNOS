@@ -36,7 +36,7 @@ If you find this code useful in your research, please cite:
 ```
 
 
-If you use this repository or the SleepQA dataset in your research or application, please cite the following work:
+If you use the SleepQA dataset in your research or application, please cite the following work:
 ```
 @InProceedings{pmlr-v193-bojic22a,
   title = 	 {SleepQA: A Health Coaching Dataset on Sleep for Extractive Question Answering},
