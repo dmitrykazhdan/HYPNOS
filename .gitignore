@@ -1,0 +1,10 @@
+/.venv
+.DS_Store
+*.gguf
+/venv-arm64
+.DS_Store
+*.json
+*.txt
+*.csv
+/preprocessing/__pycache__
+preprocessing/.env
