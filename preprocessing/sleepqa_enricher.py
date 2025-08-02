@@ -5,6 +5,7 @@ import openai
 from typing import List, Dict
 import os
 from datetime import datetime
+import random
 
 class SleepQADataEnricher:
     def __init__(self, openai_api_key: str, model_key: str = "gpt-3.5-turbo"):
@@ -23,8 +24,11 @@ class SleepQADataEnricher:
         data = self._load_sleepqa_csv(csv_path)
         
         if max_items:
-            data = data[:max_items]
-            print(f"📝 Processing first {max_items} items")
+            if max_items < len(data):
+                data = random.sample(data, max_items)
+                print(f"📝 Randomly sampled {max_items} items from {len(data)} total items")
+            else:
+                print(f"📝 Processing all {len(data)} items (max_items {max_items} >= total items)")
         
         if not data:
             print("❌ No data to process")
@@ -116,13 +120,13 @@ class SleepQADataEnricher:
             print(f"❌ Error loading CSV: {e}")
             return []
     
-    def enrich_answer_with_gpt(self, question: str, brief_answer: str) -> str:
+    def enrich_answer_with_gpt(self, question: str, original_answer: str) -> str:
 
         prompt = f"""
                 You are a sleep expert. Given this question and brief answer, provide a full, detailed sentence that expands on the brief answer while keeping the same meaning and accuracy.
 
                 Question: {question}
-                Brief Answer: {brief_answer}
+                Brief Answer: {original_answer}
 
                 Provide a complete, informative sentence that expands on the brief answer:
                 """
@@ -143,7 +147,7 @@ class SleepQADataEnricher:
             
         except Exception as e:
             print(f"❌ Error enriching answer: {e}")
-            return brief_answer
+            return original_answer
     
     def _append_to_json_file(self, new_items: List[Dict], file_path: str):
         """Append new data to existing JSON file efficiently"""
