@@ -8,3 +8,4 @@
 *.csv
 /preprocessing/__pycache__
 preprocessing/.env
+server/.env

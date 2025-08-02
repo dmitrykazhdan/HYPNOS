@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypnos Chat</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .chat-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .chat-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .chat-messages {
+            height: 400px;
+            overflow-y: auto;
+            padding: 20px;
+            background: #fafafa;
+        }
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .message.user {
+            justify-content: flex-end;
+        }
+        .message-content {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            word-wrap: break-word;
+        }
+        .message.user .message-content {
+            background: #007AFF;
+            color: white;
+        }
+        .message.assistant .message-content {
+            background: white;
+            border: 1px solid #e0e0e0;
+            color: #333;
+        }
+        .chat-input {
+            padding: 20px;
+            border-top: 1px solid #e0e0e0;
+            background: white;
+        }
+        .input-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .button-group {
+            display: flex;
+            gap: 5px;
+        }
+        .image-upload {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .image-preview {
+            max-width: 200px;
+            max-height: 150px;
+            border-radius: 8px;
+            border: 2px dashed #ddd;
+            display: none;
+        }
+        .file-input {
+            display: none;
+        }
+        .upload-label {
+            background: #28a745;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .upload-label:hover {
+            background: #218838;
+        }
+        #messageInput {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        button {
+            padding: 12px 20px;
+            background: #007AFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #0056CC;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .secondary-button {
+            background: #6c757d;
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+        .secondary-button:hover {
+            background: #5a6268;
+        }
+        .status {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .status.connected {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.disconnected {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #007AFF;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🤖 Hypnos Predeployment Server</h1>
+            <p>Developed by: Dmitry Kazhdan, Maria Chepurina</p>
+        </div>
+        
+        <div id="status" class="status disconnected">
+            🔴 Disconnected - Check server configuration
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message assistant">
+                <div class="message-content">
+                    Hello! I'm Hypnos, your AI sleep companion. How can I help you today?
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <!-- Image Upload Section -->
+            <div class="image-upload">
+                <label for="imageInput" class="upload-label">📷 Attach Image</label>
+                <input type="file" id="imageInput" class="file-input" accept="image/*" onchange="handleImageSelect(event)">
+                <img id="imagePreview" class="image-preview" alt="Preview">
+                <button id="removeImage" onclick="removeImage()" style="display: none;">❌ Remove</button>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="messageInput" placeholder="Type your message..." disabled>
+                <button id="sendButton" onclick="sendMessage()" disabled>Send</button>
+                <div class="button-group">
+                    <button onclick="resetChat()">Reset</button>
+                    <button class="secondary-button" onclick="saveAsJson()">Save Conversation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration - Change this to your Mac's IP address
+        const SERVER_URL = 'http://192.168.1.116:5000'; // Replace with your Mac's IP
+        
+        let conversationHistory = [];
+        let isConnected = false;
+
+        // Check server connection on load
+        window.onload = function() {
+            checkServerHealth();
+        };
+
+        async function checkServerHealth() {
+            try {
+                const response = await fetch(`${SERVER_URL}/health`);
+                if (response.ok) {
+                    const data = await response.json();
+                    const textModelLoaded = data.text_model_loaded || data.model_loaded; // Backward compatibility
+                    const visionModelLoaded = data.vision_model_loaded;
+                    
+                    if (textModelLoaded) {
+                        let statusMessage = '🟢 Connected to Hypnos Server';
+                        if (visionModelLoaded) {
+                            statusMessage += ' (Text + Vision)';
+                        } else {
+                            statusMessage += ' (Text only)';
+                        }
+                        setConnected(true, statusMessage);
+                    } else {
+                        setConnected(false, 'Model not loaded');
+                    }
+                } else {
+                    setConnected(false, 'Server error');
+                }
+            } catch (error) {
+                setConnected(false, 'Cannot connect to server');
+            }
+        }
+
+        function setConnected(connected, message = '') {
+            isConnected = connected;
+            const statusEl = document.getElementById('status');
+            const inputEl = document.getElementById('messageInput');
+            const sendEl = document.getElementById('sendButton');
+            
+            if (connected) {
+                statusEl.className = 'status connected';
+                statusEl.innerHTML = message || '🟢 Connected to Hypnos Server';
+                inputEl.disabled = false;
+                sendEl.disabled = false;
+                inputEl.focus();
+            } else {
+                statusEl.className = 'status disconnected';
+                statusEl.innerHTML = `🔴 ${message} - Check server at ${SERVER_URL}`;
+                inputEl.disabled = true;
+                sendEl.disabled = true;
+            }
+        }
+
+
+
+        async function resetChat() {
+            try {
+                const response = await fetch(`${SERVER_URL}/reset`, {
+                    method: 'POST'
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    conversationHistory = data.history;
+                    
+                    // Clear chat messages
+                    const chatMessages = document.getElementById('chatMessages');
+                    chatMessages.innerHTML = '<div class="message assistant"><div class="message-content">Hello! I\'m Hypnos, your AI assistant. How can I help you today?</div></div>';
+                    
+                    scrollToBottom();
+                }
+            } catch (error) {
+                console.error('Failed to reset chat:', error);
+            }
+        }
+
+        function addMessage(content, type) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}`;
+            messageDiv.innerHTML = `<div class="message-content">${content}</div>`;
+            chatMessages.appendChild(messageDiv);
+            scrollToBottom();
+            return messageDiv;
+        }
+
+        function scrollToBottom() {
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Handle Enter key
+        document.getElementById('messageInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        function saveAsJson() {
+            const messages = document.querySelectorAll('.message');
+            const jsonData = {
+                timestamp: new Date().toISOString(),
+                conversation: []
+            };
+            
+            messages.forEach(message => {
+                const content = message.querySelector('.message-content').textContent;
+                const isUser = message.classList.contains('user');
+                jsonData.conversation.push({
+                    role: isUser ? 'user' : 'assistant',
+                    content: content,
+                    timestamp: new Date().toISOString()
+                });
+            });
+            
+            // Generate timestamp for filename
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const timestamp = `${year}${month}${day}_${hours}${minutes}${seconds}`;
+            
+            const jsonContent = JSON.stringify(jsonData, null, 2);
+            downloadFile(jsonContent, `hypnos-chat_${timestamp}.json`, 'application/json');
+        }
+
+        function downloadFile(content, filename, contentType) {
+            const blob = new Blob([content], { type: contentType });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        }
+
+        // Image handling functions
+        let selectedImage = null;
+
+        function handleImageSelect(event) {
+            const file = event.target.files[0];
+            if (file) {
+                selectedImage = file;
+                const preview = document.getElementById('imagePreview');
+                const removeBtn = document.getElementById('removeImage');
+                
+                // Show preview
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                    removeBtn.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+
+        function removeImage() {
+            selectedImage = null;
+            document.getElementById('imagePreview').style.display = 'none';
+            document.getElementById('removeImage').style.display = 'none';
+            document.getElementById('imageInput').value = '';
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message && !selectedImage) return;
+            if (!isConnected) return;
+            
+            // Add user message to chat
+            const userMessage = selectedImage ? 
+                `📷 [Image] ${message || 'Analyze this image'}` : 
+                message;
+            addMessage(userMessage, 'user');
+            input.value = '';
+            
+            // Show loading
+            const loadingEl = addMessage('<div class="loading"></div> Loading...', 'assistant');
+            
+            try {
+                let response;
+                
+                if (selectedImage) {
+                    // Send image with message
+                    const formData = new FormData();
+                    formData.append('image', selectedImage);
+                    formData.append('message', message || 'What do you see in this image?');
+                    
+                    response = await fetch(`${SERVER_URL}/process_image`, {
+                        method: 'POST',
+                        body: formData
+                    });
+                    
+                    // Clear selected image
+                    removeImage();
+                } else {
+                    // Send text only
+                    response = await fetch(`${SERVER_URL}/chat`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            message: message,
+                            history: conversationHistory
+                        })
+                    });
+                }
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.history) {
+                        conversationHistory = data.history;
+                    }
+                    
+                    // Replace loading message with response
+                    loadingEl.innerHTML = `<div class="message-content">${data.response}</div>`;
+                } else {
+                    loadingEl.innerHTML = '<div class="message-content">❌ Error: Failed to get response</div>';
+                }
+            } catch (error) {
+                loadingEl.innerHTML = '<div class="message-content">❌ Error: Network issue</div>';
+            }
+            
+            scrollToBottom();
+        }
+    </script>
+</body>
+</html> 
