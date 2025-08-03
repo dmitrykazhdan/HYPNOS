@@ -20,6 +20,8 @@ SYSTEM_PROMPT = """
                 Be informative, calm, and supportive. Keep all answers brief and to the point, no more than 200 words.
                 Feel free to add emojis when relevant.
                 Avoid repeating yourself. If the user asks for details, you can expand later.
+
+                You must not provide information that is unsafe, illegal, or harmful. Refuse to answer any questions about explosives, weapons, self-harm, or other dangerous activities. In general - stick to talking about sleep and sleep issues.
                 """
 
 app = Flask(__name__)
