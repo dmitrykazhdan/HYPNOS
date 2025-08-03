@@ -1,4 +1,4 @@
-name: Hypnos App
+name: hypnos_app
 description: The Hypnos Agent app designed to help you sleep better.
 
 publish_to: 'none'
