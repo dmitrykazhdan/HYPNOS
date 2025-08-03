@@ -1,11 +1,96 @@
-/.venv
-.DS_Store
-*.gguf
-/venv-arm64
-.DS_Store
-*.json
-*.txt
-*.csv
-/preprocessing/__pycache__
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+venv-arm64/
+env/
+ENV/
+
+# Environment variables (sensitive)
+.env
 preprocessing/.env
 server/.env
+*.env
+
+# Model files (large)
+*.gguf
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp data
+data/*
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Data files (optional - uncomment if you don't want to share data)
+# *.json
+# *.csv
+# *.txt
+
+# Flutter/Dart - Generated files (don't commit)
+hypnos_app/.dart_tool/
+hypnos_app/build/
+hypnos_app/.flutter-plugins
+hypnos_app/.flutter-plugins-dependencies
+hypnos_app/.idea/
+hypnos_app/*.iml
+hypnos_app/.metadata
+
+# Platform-specific generated files
+hypnos_app/ios/
+hypnos_app/android/
+hypnos_app/linux/
+hypnos_app/windows/
+hypnos_app/macos/
+hypnos_app/web/
+
+# But keep essential Flutter files
+!hypnos_app/lib/
+!hypnos_app/pubspec.yaml
+!hypnos_app/pubspec.lock
+!hypnos_app/test/
+!hypnos_app/assets/
