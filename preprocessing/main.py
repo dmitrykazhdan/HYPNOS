@@ -27,7 +27,7 @@ def parse_command_line_arguments():
             # DPO mode (generate chosen/rejected pairs from JSON)
             python main.py --dpo --json enriched-sleep-data.json
             python main.py --dpo --json enriched-sleep-data.json --max-items 50
-            """
+                    """
     )
     # python main.py --dpo --json /Users/AdminDK/HYPNOS/data/sleep-train-enriched.json --max-items 5
 
@@ -88,16 +88,16 @@ def main():
         if not args.csv:
             print("❌ CSV file path required for SFT mode. Use --csv <path>")
             return
-            
-        csv_path = args.csv
-        batch_size = args.batch_size
-        max_items = args.max_items
-        
+    
+    csv_path = args.csv
+    batch_size = args.batch_size
+    max_items = args.max_items
+    
         if not os.path.exists(csv_path):
             print(f"❌ CSV file not found: {csv_path}")
             print("💡 Make sure the CSV file exists in the specified path")
             return
-        
+    
         print(f"🚀 Starting SFT dataset enrichment...")
         print(f"   CSV file: {csv_path}")
         print(f"   Batch size: {batch_size}")
@@ -117,7 +117,7 @@ def main():
             print(f"\n📊 SFT Enrichment Summary:")
             print(f"   Total items processed: {len(enriched_data)}")
             print(f"   Output file: {output_path}")
-    
+            
     elif args.dpo:
         # DPO mode: generate chosen/rejected pairs from JSON
         if not args.json:
