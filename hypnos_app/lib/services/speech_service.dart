@@ -3,6 +3,8 @@ import 'package:speech_to_text/speech_to_text.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'dart:io';
 
+import '../config/app_config.dart';
+
 class SpeechService {
   final SpeechToText _speechToText = SpeechToText();
   final FlutterTts _tts = FlutterTts();
