@@ -116,8 +116,9 @@ def initialize_models():
 def health_check():
     return jsonify({
         "status": "healthy",
-        "text_model_loaded": chat_model is not None,
-        "timestamp": time.time()
+        "text_model_loaded": False,  # Simple mode - no model
+        "timestamp": time.time(),
+        "message": "Flask app is running!"
     })
 
 def format_prompt_truncated(history, max_tokens=2048, generation_tokens=200):
@@ -253,21 +254,16 @@ def web_interface():
         return "Web interface file not found", 404
 
 if __name__ == '__main__':
-    # Start model loading in background
-    model_thread = threading.Thread(target=initialize_models)
-    model_thread.daemon = True  # Don't block app shutdown
-    model_thread.start()
-
     # Get port from environment (Railway sets this)
     port = int(os.getenv('PORT', 3001))
     
     local_ip = get_local_ip()
     print(f"🔍 Detected local IP: {local_ip}")
-    print("🚀 Starting Hypnos Chat Server...")
+    print("🚀 Starting Hypnos Chat Server (Simple Mode)...")
     print(f"📡 Web interface: http://localhost:{port}")
     print(f"📡 Network access: http://{local_ip}:{port}")
     print(f"🔑 API Key: {API_KEY}")
-    print("\n⏳ Model loading in background...")
+    print("\n⏳ Starting Flask app without model loading...")
 
-    # Start Flask app immediately (don't wait for model)
+    # Start Flask app immediately (no model loading)
     app.run(host='0.0.0.0', port=port, debug=False)
