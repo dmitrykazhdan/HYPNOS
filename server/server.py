@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from llama_cpp import Llama
+# from llama_cpp import Llama  # Commented out for debugging
 import threading
 import time
 import os
@@ -104,12 +104,12 @@ def initialize_models():
     # Download model if it's a URL
     actual_model_path = download_model_if_needed(LOCAL_MODEL_PATH)
     
-    chat_model = Llama(
-        model_path=actual_model_path,
-        n_gpu_layers=0,
-        n_ctx=2048,
-        verbose=False
-    )
+    # chat_model = Llama(
+    #     model_path=actual_model_path,
+    #     n_gpu_layers=0,
+    #     n_ctx=2048,
+    #     verbose=False
+    # )
     print("✅ Text model loaded!")
 
 @app.route('/health', methods=['GET'])
