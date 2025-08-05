@@ -20,8 +20,15 @@ def root():
     })
 
 if __name__ == '__main__':
-    port = int(os.getenv('PORT', 3001))
-    print(f"🚀 Starting Minimal Test Server v2 on port {port}...")
-    print(f"🔑 Environment check: PORT={os.getenv('PORT')}")
-    print(f"🔧 Using minimal_test.py (not server.py)")
-    app.run(host='0.0.0.0', port=port, debug=False) 
+    try:
+        port = int(os.getenv('PORT', 3001))
+        print(f"🚀 Starting Minimal Test Server v2 on port {port}...")
+        print(f"🔑 Environment check: PORT={os.getenv('PORT')}")
+        print(f"🔧 Using minimal_test.py (not server.py)")
+        print(f"🔧 Flask app object: {app}")
+        app.run(host='0.0.0.0', port=port, debug=False)
+    except Exception as e:
+        print(f"❌ CRASH: {e}")
+        import traceback
+        traceback.print_exc()
+        raise 
