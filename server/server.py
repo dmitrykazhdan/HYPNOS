@@ -62,12 +62,50 @@ def require_api_key(f):
         return f(*args, **kwargs)
     return decorated_function
 
+import requests
+import tempfile
+import os
+
+def download_model_if_needed(model_path):
+    """Download model from URL if it's a remote path"""
+    if model_path.startswith('http'):
+        print(f"📥 Downloading model from: {model_path}")
+        
+        # Create temp directory for model
+        temp_dir = tempfile.mkdtemp()
+        local_path = os.path.join(temp_dir, 'model.gguf')
+        
+        # Download the model
+        response = requests.get(model_path, stream=True)
+        response.raise_for_status()
+        
+        total_size = int(response.headers.get('content-length', 0))
+        downloaded = 0
+        
+        with open(local_path, 'wb') as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                if chunk:
+                    f.write(chunk)
+                    downloaded += len(chunk)
+                    if total_size > 0:
+                        progress = (downloaded / total_size) * 100
+                        print(f"📊 Download progress: {progress:.1f}%")
+        
+        print(f"✅ Model downloaded to: {local_path}")
+        return local_path
+    else:
+        return model_path
+
 def initialize_models():
     global chat_model
     print("🤖 Initializing model...")
     print(f"📁 Model path: {LOCAL_MODEL_PATH}")
+    
+    # Download model if it's a URL
+    actual_model_path = download_model_if_needed(LOCAL_MODEL_PATH)
+    
     chat_model = Llama(
-        model_path=LOCAL_MODEL_PATH,
+        model_path=actual_model_path,
         n_gpu_layers=0,
         n_ctx=2048,
         verbose=False
