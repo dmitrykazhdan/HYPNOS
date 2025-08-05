@@ -17,8 +17,8 @@ dependencies:
   provider: ^6.0.5
   
   # Voice and Audio
-  speech_to_text: ^6.6.0
-  flutter_tts: ^3.8.3
+  speech_to_text: ^7.2.0
+  flutter_tts: ^4.2.3
   
   # Camera and Image Processing
   image_picker: ^1.0.4

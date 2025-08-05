@@ -1,0 +1,12 @@
+# Prevent compression of large model files
+assets/models/*.gguf binary
+assets/models/*.gguf -text
+assets/models/*.gguf -diff
+
+# Keep other assets as text for diffing
+*.dart text
+*.yaml text
+*.yml text
+*.json text
+*.md text
+*.txt text 

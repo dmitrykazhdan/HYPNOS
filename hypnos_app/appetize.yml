@@ -1,0 +1,62 @@
+# Appetize.io Configuration for HYPNOS
+# This file configures the app for Appetize.io deployment
+
+app:
+  name: "HYPNOS - AI Sleep Companion"
+  description: "Your private AI sleep companion with local LLM inference"
+  category: "Health & Fitness"
+  tags: ["AI", "Sleep", "Health", "Voice", "Local"]
+
+# Build configuration
+build:
+  platform: "android"  # Primary platform for Appetize
+  flavor: "appetize"   # Special build flavor for Appetize
+  
+# Device configuration
+devices:
+  - "pixel7"      # Google Pixel 7
+  - "pixel6"      # Google Pixel 6
+  - "galaxys22"   # Samsung Galaxy S22
+  - "iphone14"    # iPhone 14 (if iOS build available)
+
+# App configuration
+config:
+  # Enable all features for demo
+  features:
+    voice_input: true
+    camera_input: true
+    text_input: true
+    voice_output: true
+    local_llm: true
+  
+  # Demo mode settings
+  demo:
+    auto_start: false
+    show_instructions: true
+    timeout_minutes: 30
+    
+# Instructions for users
+instructions: |
+  Welcome to HYPNOS! 🌙
+  
+  This is a demo version with local AI processing:
+  
+  1. Tap the orange sphere to start voice chat
+  2. Use the camera button to analyze images
+  3. Type messages in the text field
+  4. All processing happens locally on your device
+  
+  Features:
+  ✅ Voice recognition
+  ✅ Text-to-speech
+  ✅ Image analysis
+  ✅ Local AI inference
+  ✅ Conversation history
+  
+  Note: This demo uses mock responses for the AI to ensure fast performance.
+
+# Performance settings
+performance:
+  memory_limit: "2GB"
+  timeout_seconds: 300
+  auto_restart: false 

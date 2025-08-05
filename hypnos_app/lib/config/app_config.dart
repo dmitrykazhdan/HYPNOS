@@ -1,52 +1,46 @@
 class AppConfig {
-  // Model Configuration
-  static const bool USE_MAC_MODEL = true; // Set to false to use local model
+  // Backend API Configuration
+  static const String baseUrl = 'https://your-backend-domain.com'; // TODO: Update with your backend URL
   
-  // Mac Server Configuration
-  static const String MAC_SERVER_URL = 'http://192.168.1.205:3001';
-  
-  // Local Model Configuration
-  static const String LOCAL_MODEL_PATH = 'hypnos_model.gguf';
-  static const int LOCAL_MODEL_CONTEXT_SIZE = 4096;
-  static const int LOCAL_MODEL_THREADS = 4;
+  // Authentication
+  static const String apiKey = 'your-api-key-here'; // TODO: Update with your API key
   
   // App Configuration
-  static const String APP_NAME = 'Hypnos Assistant';
-  static const String APP_VERSION = '1.0.0';
+  static const String appName = 'Hypnos Assistant';
+  static const String appVersion = '1.0.0';
   
   // Feature Flags
-  static const bool ENABLE_VOICE_INPUT = true;
-  static const bool ENABLE_CAMERA_INPUT = true;
-  static const bool ENABLE_TEXT_INPUT = true;
-  static const bool ENABLE_TTS_OUTPUT = true;
+  static const bool enableVoiceInput = true;
+  static const bool enableCameraInput = true;
+  static const bool enableTextInput = true;
+  static const bool enableTtsOutput = true;
   
   // Accessibility Configuration
-  static const bool ENABLE_ACCESSIBILITY_MODE = true;
-  static const bool ENABLE_HAPTIC_FEEDBACK = true;
-  static const bool ENABLE_VOICE_FEEDBACK = true;
+  static const bool enableAccessibilityMode = true;
+  static const bool enableHapticFeedback = true;
+  static const bool enableVoiceFeedback = true;
   
   // Performance Configuration
-  static const int REQUEST_TIMEOUT_SECONDS = 30;
-  static const int MODEL_LOAD_TIMEOUT_SECONDS = 60;
-  static const int SPEECH_TIMEOUT_SECONDS = 30;
+  static const int requestTimeoutSeconds = 30;
+  static const int speechTimeoutSeconds = 30;
   
   // UI Configuration
-  static const double MAX_MESSAGE_WIDTH_RATIO = 0.75;
-  static const double BUTTON_SIZE = 60.0;
-  static const double VOICE_BUTTON_SIZE = 80.0;
+  static const double maxMessageWidthRatio = 0.75;
+  static const double buttonSize = 60.0;
+  static const double voiceButtonSize = 80.0;
   
   // Debug Configuration
-  static const bool ENABLE_DEBUG_LOGGING = true;
-  static const bool ENABLE_PERFORMANCE_METRICS = true;
+  static const bool enableDebugLogging = true;
+  static const bool enablePerformanceMetrics = true;
   
   // Voice Configuration
-  static const String DEFAULT_VOICE_NAME = 'com.apple.ttsbundle.Samantha-compact';
-  static const String DEFAULT_VOICE_LOCALE = 'en-US';
-  static const double DEFAULT_SPEECH_RATE = 0.5;
-  static const double DEFAULT_VOLUME = 0.9;
+  static const String defaultVoiceName = 'com.apple.ttsbundle.Samantha-compact';
+  static const String defaultVoiceLocale = 'en-US';
+  static const double defaultSpeechRate = 0.5;
+  static const double defaultVolume = 0.9;
   
   // Available Voice Options (iOS/macOS)
-  static const Map<String, Map<String, String>> AVAILABLE_VOICES = {
+  static const Map<String, Map<String, String>> availableVoices = {
     'Samantha': {
       'name': 'com.apple.ttsbundle.Samantha-compact',
       'locale': 'en-US',
