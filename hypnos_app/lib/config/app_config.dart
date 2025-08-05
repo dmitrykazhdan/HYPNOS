@@ -1,9 +1,12 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class AppConfig {
   // Backend API Configuration
-  static const String baseUrl = 'https://your-backend-domain.com'; // TODO: Update with your backend URL
+  static String get baseUrl => dotenv.env['HYPNOS_BASE_URL'] ?? 'https://responsible-delight.railway.app';
   
   // Authentication
-  static const String apiKey = 'your-api-key-here'; // TODO: Update with your API key
+  static String get apiKey => dotenv.env['HYPNOS_API_KEY'] ?? 'demo-key-for-appetize';
   
   // App Configuration
   static const String appName = 'Hypnos Assistant';

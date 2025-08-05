@@ -62,66 +62,22 @@ def require_api_key(f):
         return f(*args, **kwargs)
     return decorated_function
 
-import requests
-import tempfile
 import os
 
-def download_model_if_needed(model_path):
-    """Use mounted GCS volume or download model from URL if it's a remote path"""
-    if model_path.startswith('https://storage.googleapis.com/hypnos-models/'):
-        # Extract filename from URL
-        filename = model_path.split('/')[-1]
-        local_path = f"/models/{filename}"
-        
-        if os.path.exists(local_path):
-            print(f"✅ Model found at mounted volume: {local_path}")
-            return local_path
-        else:
-            print(f"❌ Model not found at mounted volume: {local_path}")
-            print("Falling back to HTTP download...")
-            return download_via_http(model_path)
-    elif model_path.startswith('http'):
-        return download_via_http(model_path)
-    else:
-        return model_path
-
-def download_via_http(model_path):
-    """Download model from URL via HTTP"""
-    print(f"📥 Downloading model from: {model_path}")
-    
-    # Create temp directory for model
-    temp_dir = tempfile.mkdtemp()
-    local_path = os.path.join(temp_dir, 'model.gguf')
-    
-    # Download the model
-    response = requests.get(model_path, stream=True)
-    response.raise_for_status()
-    
-    total_size = int(response.headers.get('content-length', 0))
-    downloaded = 0
-    
-    with open(local_path, 'wb') as f:
-        for chunk in response.iter_content(chunk_size=8192):
-            if chunk:
-                f.write(chunk)
-                downloaded += len(chunk)
-                if total_size > 0:
-                    progress = (downloaded / total_size) * 100
-                    print(f"📊 Download progress: {progress:.1f}%")
-    
-    print(f"✅ Model downloaded to: {local_path}")
-    return local_path
+def get_model_path():
+    """Get the local model path"""
+    return LOCAL_MODEL_PATH
 
 def initialize_models():
     global chat_model
     print("🤖 Initializing model...")
     print(f"📁 Model path: {LOCAL_MODEL_PATH}")
     
-    # Download model if it's a URL
-    actual_model_path = download_model_if_needed(LOCAL_MODEL_PATH)
+    # Use local model path
+    model_path = get_model_path()
     
     chat_model = Llama(
-        model_path=actual_model_path,
+        model_path=model_path,
         n_gpu_layers=0,
         n_ctx=2048,
         verbose=False
@@ -281,7 +237,7 @@ model_thread.start()
 
 if __name__ == '__main__':
     # Get port from environment (Cloud Run sets this)
-    port = int(os.getenv('PORT', 8080))
+    port = int(os.getenv('PORT', 5000))
     
     print(f"📡 Port: {port}")
 
