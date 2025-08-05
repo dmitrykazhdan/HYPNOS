@@ -75,7 +75,6 @@ def initialize_models():
     print("✅ Text model loaded!")
 
 @app.route('/health', methods=['GET'])
-@require_api_key
 def health_check():
     return jsonify({
         "status": "healthy",
