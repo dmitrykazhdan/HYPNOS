@@ -253,7 +253,9 @@ def web_interface():
         return "Web interface file not found", 404
 
 if __name__ == '__main__':
+    # Start model loading in background
     model_thread = threading.Thread(target=initialize_models)
+    model_thread.daemon = True  # Don't block app shutdown
     model_thread.start()
 
     # Get port from environment (Railway sets this)
@@ -265,7 +267,7 @@ if __name__ == '__main__':
     print(f"📡 Web interface: http://localhost:{port}")
     print(f"📡 Network access: http://{local_ip}:{port}")
     print(f"🔑 API Key: {API_KEY}")
-    print("\n⏳ Waiting for models to load...")
+    print("\n⏳ Model loading in background...")
 
-    model_thread.join()
+    # Start Flask app immediately (don't wait for model)
     app.run(host='0.0.0.0', port=port, debug=False)

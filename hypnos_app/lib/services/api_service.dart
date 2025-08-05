@@ -110,7 +110,6 @@ class ApiService {
       final response = await http.get(
         Uri.parse('$_baseUrl/health'),
         headers: {
-          'Authorization': 'Bearer $_apiKey',
           'User-Agent': 'HypnosApp/${AppConfig.appVersion}',
         },
       ).timeout(Duration(seconds: 10));
