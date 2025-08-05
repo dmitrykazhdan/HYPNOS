@@ -3,9 +3,9 @@
 
 app:
   name: "HYPNOS - AI Sleep Companion"
-  description: "Your private AI sleep companion with local LLM inference"
+  description: "Your private AI sleep companion with cloud-powered LLM inference"
   category: "Health & Fitness"
-  tags: ["AI", "Sleep", "Health", "Voice", "Local"]
+  tags: ["AI", "Sleep", "Health", "Voice", "Cloud"]
 
 # Build configuration
 build:
@@ -27,7 +27,7 @@ config:
     camera_input: true
     text_input: true
     voice_output: true
-    local_llm: true
+    cloud_llm: true
   
   # Demo mode settings
   demo:
@@ -39,24 +39,24 @@ config:
 instructions: |
   Welcome to HYPNOS! 🌙
   
-  This is a demo version with local AI processing:
+  This is a demo version with cloud-powered AI processing:
   
   1. Tap the orange sphere to start voice chat
   2. Use the camera button to analyze images
   3. Type messages in the text field
-  4. All processing happens locally on your device
+  4. AI processing happens on our secure cloud server
   
   Features:
   ✅ Voice recognition
   ✅ Text-to-speech
   ✅ Image analysis
-  ✅ Local AI inference
+  ✅ Cloud AI inference
   ✅ Conversation history
   
-  Note: This demo uses mock responses for the AI to ensure fast performance.
+  Note: This demo connects to our GCP VM server for fast AI responses.
 
 # Performance settings
 performance:
-  memory_limit: "2GB"
+  memory_limit: "4GB"  # Increased to accommodate 2.8GB model + system overhead
   timeout_seconds: 300
   auto_restart: false 
