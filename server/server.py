@@ -217,17 +217,36 @@ def web_interface():
         with open(html_file_path, 'r', encoding='utf-8') as f:
             html_content = f.read()
 
+        # Get the current server URL dynamically
+        local_ip = get_local_ip()
+        port = int(os.getenv('PORT', 3001))
+        server_url = f"http://{local_ip}:{port}"
+        
+        # Replace the hardcoded SERVER_URL with the dynamic one
         html_content = html_content.replace(
             "const SERVER_URL = 'http://192.168.1.116:5000';",
-            "const SERVER_URL = window.location.origin;"
+            f"const SERVER_URL = '{server_url}';"
         )
+        
+        # Add API key to the chat request
+        html_content = html_content.replace(
+            "'Content-Type': 'application/json',",
+            "'Content-Type': 'application/json',\n                            'Authorization': 'Bearer " + API_KEY + "',"
+        )
+        
+        # Add API key to the reset request
+        html_content = html_content.replace(
+            "const response = await fetch(`${SERVER_URL}/reset`, {",
+            "const response = await fetch(`${SERVER_URL}/reset`, {\n                    headers: {\n                        'Authorization': 'Bearer " + API_KEY + "'\n                    },"
+        )
+        
         return html_content
     except FileNotFoundError:
         return "Web interface file not found", 404
 
 # Initialize model in background when module is imported
-print("🚀 Starting Hypnos Chat Server for Cloud Run...")
-print(f"🔑 API Key: {API_KEY}")
+print("🚀 Starting Hypnos Chat Server...")
+print("🔑 API Key: [Loaded from .env]")
 print("\n⏳ Initializing model...")
 
 # Initialize model in background
@@ -237,9 +256,14 @@ model_thread.start()
 
 if __name__ == '__main__':
     # Get port from environment (Cloud Run sets this)
-    port = int(os.getenv('PORT', 5000))
+    port = int(os.getenv('PORT', 3001))
     
     print(f"📡 Port: {port}")
-
+    
+    # Get local IP address
+    local_ip = get_local_ip()
+    print(f"🌐 Local IP: {local_ip}")
+    print(f"🔗 Server URL: http://{local_ip}:{port}")
+    
     # Start Flask app
     app.run(host='0.0.0.0', port=port, debug=False)
