@@ -3,7 +3,7 @@ class AppConfig {
   static const bool USE_MAC_MODEL = true; // Set to false to use local model
   
   // Mac Server Configuration
-  static const String MAC_SERVER_URL = 'http://192.168.1.116:3001';
+  static const String MAC_SERVER_URL = 'http://192.168.1.205:3001';
   
   // Local Model Configuration
   static const String LOCAL_MODEL_PATH = 'hypnos_model.gguf';
