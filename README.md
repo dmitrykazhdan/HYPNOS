@@ -2,6 +2,8 @@
 
 A complete AI-powered sleep assistance system with voice chat, and local processing.
 
+![Demo GIF](assets/intro_clip.gif)
+
 
 ## 🏗️ Project Structure
 
