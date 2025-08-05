@@ -1,4 +1,4 @@
-# <img src="assets/hypnos_icon_small.png" alt="icon" width="40" style="vertical-align:middle"> HYPNOS - AI Sleep Companion
+# <img src="assets/hypnos_icon_small.png" alt="icon" width="40" style="vertical-align:middle"> HYPNOS - Your Private AI Sleep Companion
 
 A complete AI-powered sleep assistance system with voice chat, and local processing.
 
