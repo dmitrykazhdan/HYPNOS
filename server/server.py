@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-# from llama_cpp import Llama  # Commented out for debugging
+from llama_cpp import Llama
 import threading
 import time
 import os
@@ -67,34 +67,50 @@ import tempfile
 import os
 
 def download_model_if_needed(model_path):
-    """Download model from URL if it's a remote path"""
-    if model_path.startswith('http'):
-        print(f"📥 Downloading model from: {model_path}")
+    """Use mounted GCS volume or download model from URL if it's a remote path"""
+    if model_path.startswith('https://storage.googleapis.com/hypnos-models/'):
+        # Extract filename from URL
+        filename = model_path.split('/')[-1]
+        local_path = f"/models/{filename}"
         
-        # Create temp directory for model
-        temp_dir = tempfile.mkdtemp()
-        local_path = os.path.join(temp_dir, 'model.gguf')
-        
-        # Download the model
-        response = requests.get(model_path, stream=True)
-        response.raise_for_status()
-        
-        total_size = int(response.headers.get('content-length', 0))
-        downloaded = 0
-        
-        with open(local_path, 'wb') as f:
-            for chunk in response.iter_content(chunk_size=8192):
-                if chunk:
-                    f.write(chunk)
-                    downloaded += len(chunk)
-                    if total_size > 0:
-                        progress = (downloaded / total_size) * 100
-                        print(f"📊 Download progress: {progress:.1f}%")
-        
-        print(f"✅ Model downloaded to: {local_path}")
-        return local_path
+        if os.path.exists(local_path):
+            print(f"✅ Model found at mounted volume: {local_path}")
+            return local_path
+        else:
+            print(f"❌ Model not found at mounted volume: {local_path}")
+            print("Falling back to HTTP download...")
+            return download_via_http(model_path)
+    elif model_path.startswith('http'):
+        return download_via_http(model_path)
     else:
         return model_path
+
+def download_via_http(model_path):
+    """Download model from URL via HTTP"""
+    print(f"📥 Downloading model from: {model_path}")
+    
+    # Create temp directory for model
+    temp_dir = tempfile.mkdtemp()
+    local_path = os.path.join(temp_dir, 'model.gguf')
+    
+    # Download the model
+    response = requests.get(model_path, stream=True)
+    response.raise_for_status()
+    
+    total_size = int(response.headers.get('content-length', 0))
+    downloaded = 0
+    
+    with open(local_path, 'wb') as f:
+        for chunk in response.iter_content(chunk_size=8192):
+            if chunk:
+                f.write(chunk)
+                downloaded += len(chunk)
+                if total_size > 0:
+                    progress = (downloaded / total_size) * 100
+                    print(f"📊 Download progress: {progress:.1f}%")
+    
+    print(f"✅ Model downloaded to: {local_path}")
+    return local_path
 
 def initialize_models():
     global chat_model
@@ -104,21 +120,21 @@ def initialize_models():
     # Download model if it's a URL
     actual_model_path = download_model_if_needed(LOCAL_MODEL_PATH)
     
-    # chat_model = Llama(
-    #     model_path=actual_model_path,
-    #     n_gpu_layers=0,
-    #     n_ctx=2048,
-    #     verbose=False
-    # )
+    chat_model = Llama(
+        model_path=actual_model_path,
+        n_gpu_layers=0,
+        n_ctx=2048,
+        verbose=False
+    )
     print("✅ Text model loaded!")
 
 @app.route('/health', methods=['GET'])
 def health_check():
     return jsonify({
         "status": "healthy",
-        "text_model_loaded": False,  # Simple mode - no model
+        "text_model_loaded": chat_model is not None,
         "timestamp": time.time(),
-        "message": "Flask app is running!"
+        "message": "Hypnos Flask app is running!"
     })
 
 def format_prompt_truncated(history, max_tokens=2048, generation_tokens=200):
@@ -253,17 +269,21 @@ def web_interface():
     except FileNotFoundError:
         return "Web interface file not found", 404
 
-if __name__ == '__main__':
-    # Get port from environment (Railway sets this)
-    port = int(os.getenv('PORT', 3001))
-    
-    local_ip = get_local_ip()
-    print(f"🔍 Detected local IP: {local_ip}")
-    print("🚀 Starting Hypnos Chat Server (Simple Mode)...")
-    print(f"📡 Web interface: http://localhost:{port}")
-    print(f"📡 Network access: http://{local_ip}:{port}")
-    print(f"🔑 API Key: {API_KEY}")
-    print("\n⏳ Starting Flask app without model loading...")
+# Initialize model in background when module is imported
+print("🚀 Starting Hypnos Chat Server for Cloud Run...")
+print(f"🔑 API Key: {API_KEY}")
+print("\n⏳ Initializing model...")
 
-    # Start Flask app immediately (no model loading)
+# Initialize model in background
+model_thread = threading.Thread(target=initialize_models)
+model_thread.daemon = True
+model_thread.start()
+
+if __name__ == '__main__':
+    # Get port from environment (Cloud Run sets this)
+    port = int(os.getenv('PORT', 8080))
+    
+    print(f"📡 Port: {port}")
+
+    # Start Flask app
     app.run(host='0.0.0.0', port=port, debug=False)
