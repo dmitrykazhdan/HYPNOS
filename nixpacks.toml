@@ -1,4 +1,0 @@
-# nixpacks.toml
-
-[start]
-cmd = "gunicorn -w 1 -b :$PORT app:app" 
