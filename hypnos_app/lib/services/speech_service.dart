@@ -27,13 +27,13 @@ class SpeechService {
   Future<void> _initializeTts() async {
     if (Platform.isIOS || Platform.isMacOS) {
       await _tts.setVoice({
-        "name": AppConfig.DEFAULT_VOICE_NAME, 
-        "locale": AppConfig.DEFAULT_VOICE_LOCALE
+        "name": AppConfig.defaultVoiceName, 
+        "locale": AppConfig.defaultVoiceLocale
       });
     }
-    await _tts.setLanguage(AppConfig.DEFAULT_VOICE_LOCALE);
-    await _tts.setSpeechRate(AppConfig.DEFAULT_SPEECH_RATE);
-    await _tts.setVolume(AppConfig.DEFAULT_VOLUME);
+    await _tts.setLanguage(AppConfig.defaultVoiceLocale);
+    await _tts.setSpeechRate(AppConfig.defaultSpeechRate);
+    await _tts.setVolume(AppConfig.defaultVolume);
     
     _tts.setStartHandler(() {
       _isSpeaking = true;

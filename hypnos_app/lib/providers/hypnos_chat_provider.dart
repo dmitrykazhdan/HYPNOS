@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
+import 'dart:io';
 
 import '../models/chat_message.dart';
 import '../models/conversation.dart';
-import '../services/mac_api_gemma_service.dart';
+import '../services/api_service.dart';
 import '../services/speech_service.dart';
 import '../services/conversation_service.dart';
 
+
 class HypnosChatProvider extends ChangeNotifier {
   // Core services
-  final MacApiGemmaService _aiService = MacApiGemmaService();
+  final ApiService _apiService = ApiService();
   final SpeechService _speechService = SpeechService();
   final ConversationService _conversationService = ConversationService();
   final TextEditingController textController = TextEditingController();
@@ -63,12 +65,15 @@ class HypnosChatProvider extends ChangeNotifier {
 
   Future<void> _connectToServer() async {
     try {
-      await _aiService.loadModel();
-      _isConnected = true;
-      _status = 'Connected';
+      _status = 'Checking server...';
+      notifyListeners();
+      
+      final health = await _apiService.checkHealth();
+      _isConnected = health['status'] == 'healthy';
+      _status = _isConnected ? 'Connected' : 'Server not ready';
     } catch (e) {
       _isConnected = false;
-      _status = 'Connection failed';
+      _status = 'Connection failed: $e';
     }
     notifyListeners();
   }
@@ -188,12 +193,23 @@ class HypnosChatProvider extends ChangeNotifier {
       await _updateCurrentConversation();
       notifyListeners();
 
-      // Get AI response
-      final response = await _aiService.processInput(trimmedText);
+      // Convert messages to API format
+      final history = _messages.map((msg) => {
+        'role': msg.isFromUser ? 'user' : 'assistant',
+        'content': msg.content,
+      }).toList();
+
+      // Get AI response from API
+      final response = await _apiService.sendChatMessage(
+        message: trimmedText,
+        history: history,
+      );
+      
+      final aiResponse = response['response'] as String;
       
       // Add AI response
       _messages.add(ChatMessage.create(
-        content: response,
+        content: aiResponse,
         isFromUser: false,
       ));
       await _updateCurrentConversation();
@@ -201,7 +217,7 @@ class HypnosChatProvider extends ChangeNotifier {
 
       // Speak if enabled
       if (_voiceEnabled) {
-        await _speechService.speak(response);
+        await _speechService.speak(aiResponse);
       }
 
       _status = 'Ready';
@@ -229,12 +245,24 @@ class HypnosChatProvider extends ChangeNotifier {
       await _updateCurrentConversation();
       notifyListeners();
 
-      // Get AI response
-      final response = await _aiService.processImage(imagePath, userMessage: userMessage);
+      // Convert messages to API format
+      final history = _messages.map((msg) => {
+        'role': msg.isFromUser ? 'user' : 'assistant',
+        'content': msg.content,
+      }).toList();
+
+      // Get AI response from API
+      final response = await _apiService.processImage(
+        imageFile: File(imagePath),
+        message: userMessage ?? 'What do you see in this image?',
+        history: history,
+      );
+      
+      final aiResponse = response['response'] as String;
       
       // Add AI response
       _messages.add(ChatMessage.create(
-        content: response,
+        content: aiResponse,
         isFromUser: false,
       ));
       await _updateCurrentConversation();
@@ -242,7 +270,7 @@ class HypnosChatProvider extends ChangeNotifier {
 
       // Speak if enabled
       if (_voiceEnabled) {
-        await _speechService.speak(response);
+        await _speechService.speak(aiResponse);
       }
 
       _status = 'Ready';
@@ -287,7 +315,12 @@ class HypnosChatProvider extends ChangeNotifier {
 
   // Test connection
   Future<bool> testConnection() async {
-    return await _aiService.testConnection();
+    try {
+      final health = await _apiService.checkHealth();
+      return health['status'] == 'healthy';
+    } catch (e) {
+      return false;
+    }
   }
 
   @override
