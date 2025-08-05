@@ -1,4 +1,4 @@
 # nixpacks.toml
 
 [start]
-cmd = "gunicorn server.minimal_test:app" 
+cmd = "gunicorn -w 1 -b :$PORT server.minimal_test:app" 
