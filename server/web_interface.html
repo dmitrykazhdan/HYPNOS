@@ -208,10 +208,13 @@
         };
 
         async function checkServerHealth() {
+            console.log('Checking server health at:', SERVER_URL);
             try {
                 const response = await fetch(`${SERVER_URL}/health`);
+                console.log('Health response status:', response.status);
                 if (response.ok) {
                     const data = await response.json();
+                    console.log('Health data:', data);
                     const textModelLoaded = data.text_model_loaded || data.model_loaded; // Backward compatibility
                     const visionModelLoaded = data.vision_model_loaded;
                     
@@ -230,6 +233,7 @@
                     setConnected(false, 'Server error');
                 }
             } catch (error) {
+                console.error('Health check error:', error);
                 setConnected(false, 'Cannot connect to server');
             }
         }

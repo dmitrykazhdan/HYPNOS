@@ -34,6 +34,12 @@ chat_model = None
 model_lock = threading.Lock()
 
 def get_local_ip():
+    # Check if IP is specified in environment
+    env_ip = os.getenv('SERVER_IP')
+    if env_ip:
+        return env_ip
+    
+    # Fallback to local IP detection
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
             s.connect(("8.8.8.8", 80))

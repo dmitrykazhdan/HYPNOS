@@ -1,0 +1,2178 @@
+[
+  {
+    "question": "what does help researchers to learn about the importance of sleep?",
+    "answer": "Brain activity is a key indicator that helps researchers gain insights into the significance of sleep by allowing them to study the patterns and processes within the brain during different stages of sleep.",
+    "source": "sleepqa_enriched",
+    "original_answer": "brain activity"
+  },
+  {
+    "question": "what may enable more restful sleep?",
+    "answer": "Engaging in activities that stimulate mental relaxation and physical exertion, such as mindfulness practices or physical exercise, can promote deeper and more restful sleep by helping to calm the mind and tire the body.",
+    "source": "sleepqa_enriched",
+    "original_answer": "exercising the mind as well as the body"
+  },
+  {
+    "question": "what percentage of women are report sleeping problems and higher rates of insomnia during perimenopause and menopause?",
+    "answer": "Up to 64% of women going through perimenopause and menopause report experiencing sleeping problems and higher rates of insomnia, highlighting the significant impact of hormonal changes during this stage on sleep quality.",
+    "source": "sleepqa_enriched",
+    "original_answer": "up to 64%"
+  },
+  {
+    "question": "what are symptoms of travel fatigue?",
+    "answer": "Symptoms of travel fatigue can include feelings of extreme exhaustion, persistent headaches, difficulties with sleep patterns leading to sleep loss, as well as various other types of discomfort such as muscle aches and irritability.",
+    "source": "sleepqa_enriched",
+    "original_answer": "exhaustion, headaches, sleep loss, and other types of discomfort"
+  },
+  {
+    "question": "what does stress represent?",
+    "answer": "Stress represents the intricate and dynamic interplay between physiological and mental reactions that the body initiates in response to perceived threats, activating the \"fight or flight\" response to cope with challenging situations.",
+    "source": "sleepqa_enriched",
+    "original_answer": "the body's physiological and mental response to a threat"
+  },
+  {
+    "question": "why do doctors often look for mental health disorders in people with parkinson's disease who have sleep problems?",
+    "answer": "Insomnia often co-occurs with anxiety and depression in individuals with Parkinson's disease, prompting doctors to investigate mental health disorders as they can exacerbate sleep problems and impact overall well-being.",
+    "source": "sleepqa_enriched",
+    "original_answer": "insomnia frequently goes hand-in-hand with anxiety and depression"
+  },
+  {
+    "question": "what happens if an underlying cause of hypersomnia can't be found?",
+    "answer": "If an underlying cause of hypersomnia cannot be identified through diagnostic tests and evaluations, a diagnosis of idiopathic hypersomnia (IH) may be considered based on the individual's symptom presentation and the outcomes of comprehensive sleep studies.",
+    "original_answer": "a diagnosis of ih may be made based on a person's symptoms and the results of sleep tests"
+  },
+  {
+    "question": "how do cpap machines work?",
+    "answer": "CPAP machines work by delivering a continuous flow of pressurized air through a mask worn over the nose and/or mouth, which helps to keep the airways open and effectively treat conditions such as sleep apnea.",
+    "original_answer": "pushing a steady stream of pressurized air through the nostrils"
+  },
+  {
+    "question": "what is the purpose of a sleep dictionary?",
+    "answer": "A sleep dictionary serves the purpose of providing detailed explanations and definitions of essential sleep-related terms, ensuring clarity and understanding by offering insights into their meanings and practical applications within the context of sleep science and health.",
+    "original_answer": "reviews key terminology, explains the relevant meanings, and offers context about how they may be used"
+  },
+  {
+    "question": "what can sleep studies find?",
+    "answer": "Sleep studies can uncover the root cause of disrupted sleep patterns by identifying various sleep-related disorders such as sleep apnea and periodic limb movement disorder, allowing for targeted treatment interventions to improve overall sleep quality.",
+    "original_answer": "underlying cause of poor sleep by detecting many sleep-related disorders, like sleep apnea or periodic limb movement disorder"
+  },
+  {
+    "question": "what happens when there is delayed sleep timing?",
+    "answer": "When there is delayed sleep timing, such as in the case of students staying up late, they miss out on the optimal period for natural sleep, which is most beneficial in the early part of the night, and this disrupts their circadian rhythm stabilization process.",
+    "original_answer": "students forgo natural sleep exposure, which is most effective in the earliest parts of the day, and crucial to stabilizing circadian rhythm"
+  },
+  {
+    "question": "what can changes to daily routine do?",
+    "answer": "Changes to daily routine can disrupt sleep patterns, leading to difficulties in falling or staying asleep, especially for older adults who may also be dealing with sleep disturbances due to underlying health conditions or the side effects of prescription medications.",
+    "original_answer": "interfere with sleep, and older adults may encounter sleep difficulties caused by other health conditions or prescription medications"
+  },
+  {
+    "question": "what should you do if you are aiming to wake up earlier?",
+    "answer": "To successfully wake up earlier, the first step is to carefully assess and understand the specific challenges or obstacles you face when trying to wake up early.",
+    "original_answer": "first evaluate what you find most difficult about waking up early"
+  },
+  {
+    "question": "what can exposure to electric light at night do?",
+    "answer": "Exposure to electric light at night can disrupt a person's circadian rhythm, leading to difficulties falling asleep, reducing the production of the sleep hormone melatonin, and potentially impacting overall sleep quality and health.",
+    "original_answer": "disrupt a person's circadian rhythm"
+  },
+  {
+    "question": "what is a central component of sleep hygiene beyond just habits?",
+    "answer": "An essential element of practicing good sleep hygiene extends to optimizing your sleep environment, encompassing factors such as the comfort of your bedding, the darkness and quietness of the room, and maintaining a cool and relaxing atmosphere conducive to quality rest.",
+    "original_answer": "your sleep environment"
+  },
+  {
+    "question": "what is the official treatment for maladaptive daydreaming?",
+    "answer": "There is no officially established standard course of treatment specifically designed for maladaptive daydreaming, but therapy, cognitive-behavioral techniques, and mindfulness practices have shown some promise in helping individuals manage and reduce excessive daydreaming behaviors.",
+    "original_answer": "no official course of treatment for maladaptive daydreaming"
+  },
+  {
+    "question": "what should you do if you're unsure of how to implement healthy sleep habits in your life?",
+    "answer": "If you're unsure of how to implement healthy sleep habits in your life, it is recommended to consult with your doctor as they can provide personalized advice and guidance tailored to your specific needs and health circumstances.",
+    "original_answer": "talk with your doctor"
+  },
+  {
+    "question": "what percentage of people have night eating syndrome?",
+    "answer": "Approximately 1.5% of the population is estimated to be affected by night eating syndrome, a disorder characterized by consuming a significant amount of food during the night.",
+    "original_answer": "approximately 1.5%"
+  },
+  {
+    "question": "what are the inherent risk of getting the inspire sleep apnea treatment?",
+    "answer": "The inherent risks of the Inspire sleep apnea treatment include the potential for infection, discomfort due to pain, and temporary swelling following the procedure.",
+    "original_answer": "infection, pain, and swelling"
+  },
+  {
+    "question": "what are the three components of asv machines?",
+    "answer": "The three essential components of ASV machines include a face mask for delivering pressurized air, the main machine that controls the airflow, and a flexible hose that connects the mask to the machine to facilitate continuous positive airway pressure therapy.",
+    "original_answer": "a face mask, the machine, and a flexible hose that connects the mask to the machine"
+  },
+  {
+    "question": "what is hypersomnolence?",
+    "answer": "Hypersomnolence is a condition characterized by an excessive and prolonged feeling of sleepiness, often leading to difficulty staying awake during the day and impacting daily functioning.",
+    "original_answer": "excessive sleepiness"
+  },
+  {
+    "question": "what prevents people from acting out their dreams?",
+    "answer": "During the rapid eye movement (REM) stage of sleep, which is when most dreaming occurs, the brain signals the body to temporarily lose muscle control and reflexes, preventing people from physically acting out their dreams.",
+    "original_answer": "losing muscle control and reflexes"
+  },
+  {
+    "question": "when is polysomnography able to record?",
+    "answer": "Polysomnography is able to record both during your sleep cycles, capturing valuable data on various sleep stages and patterns, as well as when you are awake, providing insights into wakefulness-related measures such as muscle activity and brain waves.",
+    "original_answer": "when you are sleeping and when you are awake"
+  },
+  {
+    "question": "what can failing to get enough sleep lead to?",
+    "answer": "Failing to get enough sleep can lead to the accumulation of sleep debt, which may result in negative impacts on cognitive function, mood regulation, immune system health, and overall well-being.",
+    "original_answer": "sleep debt"
+  },
+  {
+    "question": "what is considered shift work?",
+    "answer": "Shift work typically refers to work schedules that occur outside the typical hours of 7 am to 6 pm, including night shifts, early morning shifts, and rotating shifts.",
+    "original_answer": "work schedules that fall anywhere outside the hours of 7 am to 6 pm"
+  },
+  {
+    "question": "what is parkinson's disease?",
+    "answer": "Parkinson's disease is a neurodegenerative disorder characterized by a wide range of motor symptoms, such as tremors, stiffness, and impaired balance, making it a complex movement disorder.",
+    "original_answer": "a complex movement disorder"
+  },
+  {
+    "question": "how much calories do we burn when we sleep?",
+    "answer": "During sleep, the average person burns approximately 50 calories per hour, as the body continues to carry out essential functions and processes even while resting.",
+    "original_answer": "around 50 calories an hour"
+  },
+  {
+    "question": "what can you do if you become tired of the standard lullabies?",
+    "answer": "Consider composing a fresh and personalized bedtime melody for your children to introduce a novel and engaging element to their nighttime routine if you find yourself growing weary of traditional lullabies.",
+    "original_answer": "create a new bedtime song for your kids"
+  },
+  {
+    "question": "what percentage of sleep paralysis episodes involve hallucinations that are distinct from typical dreams?",
+    "answer": "Approximately 75% of sleep paralysis episodes include distinct hallucinations that are separate from typical dream experiences, adding to the unsettling nature of the phenomenon.",
+    "original_answer": "75%"
+  },
+  {
+    "question": "what can delay the onset of melatonin?",
+    "answer": "Exposure to bright lights emitted from electronic screens, such as smartphones and computers, as well as household lighting, can delay the onset of melatonin production, making it harder for individuals to fall asleep.",
+    "original_answer": "bright lights from electronic screens and even household lighting"
+  },
+  {
+    "question": "what should you do to minimize the effects of medication on your sleep?",
+    "answer": "To minimize the effects of medication on your sleep, it is advisable to consult with your doctor to discuss the possibility of adjusting your medication schedule to mitigate any disruptions to your sleep patterns.",
+    "original_answer": "talk to your doctor to see if you can adjust your medication schedule"
+  },
+  {
+    "question": "what negative health conditions is nocturia associated with?",
+    "answer": "Nocturia, a condition characterized by waking up frequently during the night to urinate, is associated with depression, highlighting the potential impact of disrupted sleep on mental health.",
+    "original_answer": "depression"
+  },
+  {
+    "question": "what is a principal driver of your sleep routine?",
+    "answer": "The circadian rhythm, often referred to as your internal body clock, is a principal driver of your sleep routine as it regulates the timing of when you feel sleepy or alert throughout the day.",
+    "original_answer": "circadian rhythm"
+  },
+  {
+    "question": "what is somniloquy?",
+    "answer": "Somniloquy refers to the act of talking while asleep, a sleep disorder characterized by the utterance of words or sounds during sleep without the person being aware of it.",
+    "original_answer": "sleep talking"
+  },
+  {
+    "question": "what does 'weekend migraine' refer to?",
+    "answer": "'Weekend migraine' refers to the phenomenon where individuals experience migraines after sleeping in on weekends to compensate for inadequate sleep during the weekdays, often due to changes in their sleep patterns.",
+    "original_answer": "migraines that commonly occur in individuals sleeping in on weekends to make up for lost sleep during the week"
+  },
+  {
+    "question": "who does rem rebound tend to occur in?",
+    "answer": "REM rebound tends to occur in individuals who have parasomnias, narcolepsy, or obstructive sleep apnea, as their sleep cycles may be disrupted, leading to a compensatory increase in REM sleep when they finally achieve restful sleep.",
+    "original_answer": "people with parasomnias, narcolepsy, and obstructive sleep apnea"
+  },
+  {
+    "question": "what medical and psychological conditions can lead to eds?",
+    "answer": "Medical conditions such as diabetes and hypothyroidism, as well as psychological conditions like chronic pain, depression, and anxiety, are known to be contributing factors that can lead to Excessive Daytime Sleepiness (EDS).",
+    "original_answer": "diabetes, hypothyroidism, chronic pain, depression, and anxiety"
+  },
+  {
+    "question": "how long does the body take to metabolize half of the caffeine consumed?",
+    "answer": "The body typically takes approximately four to six hours to metabolize and eliminate half of the caffeine consumed, meaning that it can take this amount of time for the effects of caffeine to decrease by half in the body.",
+    "original_answer": "four to six hours"
+  },
+  {
+    "question": "what devices can cause mental overstimulation?",
+    "answer": "Devices such as television or phones, due to their bright screens and constant stream of information, can lead to mental overstimulation, potentially disrupting the ability to relax and fall asleep easily.",
+    "original_answer": "television or phone"
+  },
+  {
+    "question": "what does the valsalva maneuver entail?",
+    "answer": "The Valsalva maneuver involves the act of exhaling forcibly against a closed airway by pinching the nostrils shut and closing the mouth, which can result in increased pressure in the chest and head.",
+    "original_answer": "exhaling while pinching the nostrils shut and closing the mouth"
+  },
+  {
+    "question": "what percentage of people with asthma experience nocturnal symptoms every night?",
+    "answer": "Approximately 40% of individuals with asthma experience nocturnal symptoms on a nightly basis.",
+    "original_answer": "40%"
+  },
+  {
+    "question": "what should you do if you are struggling with sleep?",
+    "answer": "Considering incorporating massage therapy into your routine could be beneficial if you are finding it difficult to sleep, as it has been shown to help reduce stress, promote relaxation, and improve overall sleep quality.",
+    "original_answer": "massage therapy may be worth looking into"
+  },
+  {
+    "question": "how does memory foam create a more contoured sleep surface?",
+    "answer": "Memory foam creates a more contoured sleep surface by allowing the body to sink in substantially more, conforming to the shape and weight distribution of the sleeper for personalized support and pressure relief.",
+    "original_answer": "lets the body sink in substantially more"
+  },
+  {
+    "question": "what should you do while you sleep?",
+    "answer": "It is recommended to consider turning off your phone while you sleep to minimize disruptions and promote a more restful and uninterrupted sleep environment.",
+    "original_answer": "consider turning your phone off"
+  },
+  {
+    "question": "how do most sleep aids for insomnia work?",
+    "answer": "Most sleep aids for insomnia work by inducing a sedative effect, which helps promote feelings of drowsiness and facilitate the onset of sleep.",
+    "original_answer": "they have a sedative effect, which means that they make you feel sleepy"
+  },
+  {
+    "question": "what might help diminish the chances of developing post-traumatic stress disorder (ptsd) after a traumatic event?",
+    "answer": "To lower the risk of developing post-traumatic stress disorder (PTSD) following a traumatic event, increasing the amount of Rapid Eye Movement (REM) sleep, which is essential for emotional processing and memory consolidation, can be beneficial.",
+    "original_answer": "obtaining more rem sleep"
+  },
+  {
+    "question": "how many people have back pain?",
+    "answer": "Eight out of 10 individuals will experience back pain at some point in their lives, indicating a high prevalence of this common issue that affects a significant majority of the population.",
+    "original_answer": "eight out of 10 people have back pain at some point during their life"
+  },
+  {
+    "question": "why are people with ptsd are often afraid to go to sleep?",
+    "answer": "People with PTSD are often afraid to go to sleep because they worry that they will have nightmares, which can be vivid and distressing, and may lead to disrupted sleep patterns and increased anxiety levels.",
+    "original_answer": "because they worry they will have nightmares"
+  },
+  {
+    "question": "what is sleepwalking?",
+    "answer": "Sleepwalking is a type of non-rapid eye movement (NREM) disorder of arousal that occurs when a person experiences a partial awakening from deep sleep, leading to complex behaviors such as walking or performing other activities while remaining in a sleep state.",
+    "original_answer": "a non-rapid eye movement (nrem) disorder of arousal, reflecting a partial awakening from deep sleep"
+  },
+  {
+    "question": "why should you frequently wash your hands or use sanitizing gel for air travel?",
+    "answer": "Frequent hand washing or using sanitizing gel during air travel is essential as failure to do so can increase your susceptibility to respiratory illnesses due to the high concentration of germs and bacteria present in the confined space of an airplane cabin.",
+    "original_answer": "it can make you more vulnerable to respiratory illness"
+  },
+  {
+    "question": "what side-effects can clonazepam cause?",
+    "answer": "Clonazepam, a medication commonly used for anxiety and seizure disorders, can lead to side-effects such as excessive daytime sleepiness, memory issues, and decreased coordination upon waking in the morning.",
+    "original_answer": "sleepiness, forgetfulness, and impaired balance in the morning"
+  },
+  {
+    "question": "when is surgery considered?",
+    "answer": "Surgery is typically considered as a treatment option after non-invasive interventions, such as medication or therapy, have been attempted without success or if the condition requires a more aggressive approach.",
+    "original_answer": "after non-invasive treatments have been tried"
+  },
+  {
+    "question": "when does sleepwalking entail?",
+    "answer": "Sleepwalking occurs when an individual gets out of bed and engages in complex activities while still being in a state of sleep without fully waking up.",
+    "original_answer": "when a sleeper leaves the bed and performs complex behaviors without fully waking up"
+  },
+  {
+    "question": "when should you take a shower before bedtime?",
+    "answer": "Ideally, it is recommended to take a shower one to two hours before bedtime to allow enough time for your body temperature to naturally cool down, signaling to your brain that it's time to start winding down for sleep.",
+    "original_answer": "one to two hours before"
+  },
+  {
+    "question": "what is the first step in diagnosing ih?",
+    "answer": "The initial step in diagnosing idiopathic hypersomnia involves ruling out the possibility that a patient's excessive daytime sleepiness is a result of or related to another underlying health condition.",
+    "original_answer": "determining if a patient's hypersomnia is secondary to another health condition"
+  },
+  {
+    "question": "what are normal signs of aging?",
+    "answer": "Normal signs of aging often include a gradual decline in memory recall and thought processing speed, which can be attributed to natural cognitive changes that occur as individuals grow older.",
+    "original_answer": "slower memory recall and thought processing"
+  },
+  {
+    "question": "what is melatonin?",
+    "answer": "Melatonin is a hormone naturally produced by the brain in response to darkness, helping to regulate the sleep-wake cycle and promote relaxation and drowsiness in preparation for sleep.",
+    "original_answer": "a naturally occurring hormone produced by the brain after exposure to darkness"
+  },
+  {
+    "question": "what does good sleep during trips do?",
+    "answer": "Good sleep during trips promotes overall wellness by enhancing physical and mental health, which in turn allows you to fully enjoy and make the most of any travel experience.",
+    "original_answer": "promotes wellness that lets you get the most out of any trip"
+  },
+  {
+    "question": "where is there responses in the brain during contagious yawning?",
+    "answer": "The responses in the brain during contagious yawning are observed within a neural network that is intricately linked with social behavior, indicating the role of social cognition and empathy in this phenomenon.",
+    "original_answer": "a neural network associated with social behavior"
+  },
+  {
+    "question": "what can exposure to prolonged and repeated stressors such as relationship issues or financial worries lead to ?",
+    "answer": "Exposure to prolonged and repeated stressors such as relationship issues or financial worries can lead to chronic stress, which has been shown to have a significant impact on both physical and mental health over time.",
+    "original_answer": "chronic stress, which can take a significant toll on health"
+  },
+  {
+    "question": "what is the scientifically-proven benefits of mouth taping?",
+    "answer": "Mouth taping has been scientifically proven to be beneficial in reducing snoring and tiredness in individuals with obstructive sleep apnea by promoting nasal breathing and improving airway patency during sleep.",
+    "original_answer": "a reduction in snoring and tiredness in people with obstructive sleep apnea"
+  },
+  {
+    "question": "why does artificial blue light have an effect on our sleep-wake cycles?",
+    "answer": "Artificial blue light impacts our sleep-wake cycles because it mimics the wavelength of natural sunlight, particularly affecting our circadian rhythms by suppressing the production of melatonin, the hormone responsible for regulating sleep.",
+    "original_answer": "it mimics the effects of sunlight on our circadian rhythms"
+  },
+  {
+    "question": "what does the night eating symptom scale measure?",
+    "answer": "The Night Eating Symptom Scale measures the progress and severity of symptoms in individuals who have already been diagnosed with night eating syndrome, providing a valuable tool for tracking their condition and treatment effectiveness.",
+    "original_answer": "progress for someone who already has a diagnosis of night eating syndrome"
+  },
+  {
+    "question": "how many people are affected by sleep apnea?",
+    "answer": "Between 2% to 9% of adults are affected by sleep apnea, highlighting a significant portion of the population experiencing this common sleep disorder characterized by pauses in breathing during sleep that can have serious health implications if left untreated.",
+    "original_answer": "2% to 9% of adults"
+  },
+  {
+    "question": "what is the first line of treatment for copd patients with moderate to severe osa?",
+    "answer": "The initial line of treatment recommended for COPD patients with moderate to severe obstructive sleep apnea (OSA) is the use of a continuous positive airway pressure (CPAP) machine to help improve breathing and oxygen levels during sleep.",
+    "original_answer": "the cpap machine"
+  },
+  {
+    "question": "how long can a good mattress last for?",
+    "answer": "A good mattress typically has a lifespan of around 7 to 10 years, as this is the general timeframe within which it maintains its optimal comfort and support, ensuring a restful and rejuvenating sleep experience.",
+    "original_answer": "about 7 to 10 years"
+  },
+  {
+    "question": "how do some mouthpieces help treat osa and reduce teeth grinding?",
+    "answer": "Some mouthpieces designed to treat obstructive sleep apnea (OSA) and reduce teeth grinding function by holding the tongue and lower jaw in a forward position, which helps keep the airway open and reduces the risk of airway blockages during sleep.",
+    "original_answer": "hold the tongue and lower jaw forward"
+  },
+  {
+    "question": "what is daytime naps a common coping mechanism for?",
+    "answer": "Daytime naps are a common coping mechanism for individuals who experience inadequate sleep, as these short periods of rest can help make up for lost nighttime sleep and improve overall alertness and cognitive function.",
+    "original_answer": "inadequate sleep"
+  },
+  {
+    "question": "why should expectant mothers avoid sleeping flat on their back?",
+    "answer": "Expectant mothers should avoid sleeping flat on their back because this position can compress the inferior vena cava, the large vein that carries deoxygenated blood from the lower body to the heart, potentially decreasing oxygen flow to the placenta and the baby.",
+    "original_answer": "can compress the inferior vena cava and decrease oxygen to the placenta"
+  },
+  {
+    "question": "what are some treatments for somniphobia?",
+    "answer": "Treatment for somniphobia typically involves a combination of cognitive behavioral therapy to address underlying fears and anxiety associated with sleep, along with the possible use of medications to help manage symptoms and improve sleep quality.",
+    "original_answer": "a mix of behavioral health treatments and medication"
+  },
+  {
+    "question": "why does an epap device work?",
+    "answer": "An epap device works effectively by utilizing the sleeper's own breath to create positive airway pressure and prevent airway collapse during sleep, thereby facilitating improved breathing and reducing symptoms of sleep apnea.",
+    "original_answer": "because of the sleeper's own breath"
+  },
+  {
+    "question": "how many main types of anti-snoring mouthpieces are they?",
+    "answer": "There are two main types of anti-snoring mouthpieces available, which are mandibular advancement devices (MADs) and tongue stabilizing devices (TSDs).",
+    "original_answer": "two"
+  },
+  {
+    "question": "what happens to the body when you sleep?",
+    "answer": "During sleep, the body experiences a decrease in body temperature, a reduction in brain activity, and a slowdown in heart rate and respiration, all of which are vital processes that help promote restorative rest and overall well-being.",
+    "original_answer": "body temperature drops, brain activity ramps down, and heart rate and respiration slow as well"
+  },
+  {
+    "question": "how much sleep should adults get daily?",
+    "answer": "Adults should aim to get around seven hours of sleep per night to support overall health and well-being, as this duration is associated with optimal cognitive function, mood regulation, and physical performance.",
+    "original_answer": "seven hours"
+  },
+  {
+    "question": "how many patients with rls have at least one first-degree relative with the condition?",
+    "answer": "Between 40% and 90% of patients diagnosed with Restless Legs Syndrome (RLS) have at least one first-degree relative who also experiences the condition, indicating a strong familial predisposition in a significant proportion of cases.",
+    "original_answer": "between 40% and 90%"
+  },
+  {
+    "question": "what is daylight hours based on?",
+    "answer": "Daylight hours are determined by the geographic location, as the position on Earth relative to the equator and the tilt of the planet's axis influence the length of daylight experienced each day.",
+    "original_answer": "geographic location"
+  },
+  {
+    "question": "what are some sleep-promoting ingredients in melatonin patches apart from melatonin?",
+    "answer": "In addition to melatonin, other sleep-promoting ingredients commonly found in melatonin patches include valerian, l-theanine, or GABA, which can help support relaxation and improve sleep quality.",
+    "original_answer": "valerian, l-theanine, or gaba"
+  },
+  {
+    "question": "what can resulting sleep deprivation lead to?",
+    "answer": "Resulting sleep deprivation can lead to a negative impact on mood regulation and cognitive functions, such as decision-making abilities, due to disruptions in brain activity and hormone regulation.",
+    "original_answer": "impair mood and decision-making"
+  },
+  {
+    "question": "what does napping do?",
+    "answer": "Napping is beneficial as it can enhance alertness and assist in regulating one's circadian rhythm, which is crucial for maintaining a balanced sleep-wake cycle and overall cognitive function.",
+    "original_answer": "improves alertness and circadian rhythm regulation"
+  },
+  {
+    "question": "how much time do sleepers spend in stage 2?",
+    "answer": "On average, individuals typically spend approximately 45% to 55% of their total sleep time in stage 2 of the sleep cycle, which is characterized by light sleep and plays a crucial role in overall sleep quality and restoration.",
+    "original_answer": "around 45% to 55% of their sleep time"
+  },
+  {
+    "question": "what makes a weighted blanket heavy?",
+    "answer": "Weighted blankets are heavy due to the incorporation of materials such as plastic pellets, ball bearings, glass beads, or other dense objects that are evenly distributed and woven into the fabric to provide gentle pressure and a comforting sensation.",
+    "original_answer": "plastic pellets, ball bearings, glass beads, or other dense objects woven into it"
+  },
+  {
+    "question": "what stage of sleep provides an opportunity for information to be restructured and reorganized in the brain?",
+    "answer": "During Non-Rapid Eye Movement (NREM) sleep, particularly in the slow-wave stage, the brain undergoes a process of restructuring and reorganizing information, which is essential for memory consolidation and cognitive processing.",
+    "original_answer": "nrem sleep"
+  },
+  {
+    "question": "what should you do if you have long-lasting or severe sleeping problems?",
+    "answer": "If you are experiencing persistent or severe sleep issues, it is crucial to consult with a healthcare provider who can assess your condition thoroughly and suggest the most suitable treatment options to address your specific sleep concerns effectively.",
+    "original_answer": "talk with a doctor who can recommend the most appropriate course of treatment"
+  },
+  {
+    "question": "what are some factors to consider in choosing bedding?",
+    "answer": "When selecting bedding, it's important to consider factors such as the type of material used, the weave of the fabric, the level of warmth provided, how easy it is to care for, and of course, the price point to ensure you choose the most suitable option for your comfort and needs.",
+    "original_answer": "material, weave, warmth, and ease of care - not to mention price"
+  },
+  {
+    "question": "what are sleep attacks?",
+    "answer": "Sleep attacks are sudden and overwhelming urges to fall asleep, often associated with conditions like narcolepsy where individuals may experience irresistible bouts of sleepiness throughout the day.",
+    "original_answer": "overpowering urges to sleep"
+  },
+  {
+    "question": "what do pink noise contain?",
+    "answer": "Pink noise contains a consistent intensity level across each octave, yet the amplitude of specific frequencies diminishes by 3 decibels as the frequency increases to higher octaves.",
+    "original_answer": "the same overall intensity in each octave, but the volume of individual pitches decreases by 3 decibels with each higher octave"
+  },
+  {
+    "question": "what can melatonin potentially help treat?",
+    "answer": "Melatonin has been studied for its potential therapeutic effects in a wide range of conditions, including its ability to aid in the treatment of liver injuries and disease, protect against skin damage, prevent and treat cancer, alleviate dental disease, enhance physical performance, and possibly contribute to the management of cardiovascular disease.",
+    "original_answer": "treat liver injuries and disease, protect against skin damage, prevent and treat cancer, treat dental disease, improve physical performance, and treat cardiovascular disease"
+  },
+  {
+    "question": "what should you do if you experience certain health conditions?",
+    "answer": "If you experience certain health conditions such as snoring or acid reflux, trying a different sleep position, such as sleeping on your side instead of your back, can often help alleviate symptoms and improve sleep quality.",
+    "original_answer": "try a different sleep position"
+  },
+  {
+    "question": "how can i wind down in the evenings?",
+    "answer": "To wind down in the evenings, you may find it helpful to consider incorporating relaxation techniques such as taking a warm bath to unwind your mind and body or practicing meditation to promote a calm and peaceful state before bedtime.",
+    "original_answer": "consider taking a soothing bath or practicing meditation"
+  },
+  {
+    "question": "what conditions can poor sleep quality contribute to?",
+    "answer": "Poor sleep quality can contribute to various health conditions such as gestational diabetes, high blood pressure, pre-eclampsia, and other issues, which can also have negative effects on the development of the baby.",
+    "original_answer": "gestational diabetes, high blood pressure, pre-eclampsia, and other conditions and can impact a baby's development"
+  },
+  {
+    "question": "what can short-term insomnia be caused by?",
+    "answer": "Short-term insomnia can be triggered by various factors, including experiencing a stressful life event like the death of a family member, receiving distressing medical news, dealing with the effects of a pandemic, going through withdrawal symptoms after stopping drug use, or adjusting to significant changes in one's job or relationship.",
+    "original_answer": "a stressful life event, such as the loss of a loved one, a disconcerting medical diagnosis, a pandemic, rebounding from cessation of a drug or marijuana, or a major job or relationship change"
+  },
+  {
+    "question": "what is sleep apnea?",
+    "answer": "Sleep apnea is a common sleep disorder characterized by pauses in breathing or shallow breaths during sleep, making it a form of sleep-disordered breathing.",
+    "original_answer": "a form of sleep-disordered breathing"
+  },
+  {
+    "question": "how do you ensure there is time for your core body temperature to return to levels that are favorable for sleep?",
+    "answer": "To ensure enough time for your core body temperature to lower and become conducive to sleep, it is recommended to finish vigorous exercise sessions at least 90 minutes before going to bed.",
+    "original_answer": "try to wrap up intense exercise sessions at least 90 minutes before bedtime"
+  },
+  {
+    "question": "what is involved in the processes of producing hormones and chemicals hat regulate sleep and wakefulness?",
+    "answer": "Multiple parts of the brain, including the pineal gland, hypothalamus, and brain stem, are involved in the complex processes of producing hormones and chemicals that regulate sleep and wakefulness.",
+    "original_answer": "multiple parts of the brain"
+  },
+  {
+    "question": "how much time is should be spent in deep sleep?",
+    "answer": "On average, individuals should ideally spend between 13% and 23% of their total sleep time in the deep sleep stage, also known as slow-wave sleep, which is crucial for physical restoration and immune function.",
+    "original_answer": "between 13% and 23%"
+  },
+  {
+    "question": "how long are the adjustments you should make when you gradually adjust to a new sleep schedule?",
+    "answer": "When gradually adjusting to a new sleep schedule, it is recommended to make adjustments in increments of 15 or 30 minutes to allow your body to adapt smoothly and effectively.",
+    "original_answer": "adjustments in 15 or 30 minute increments"
+  },
+  {
+    "question": "when do you first experience your rem sleep?",
+    "answer": "You typically first experience your REM (Rapid Eye Movement) sleep approximately 60 to 90 minutes after initially falling asleep, as this stage of sleep occurs cyclically throughout the night in roughly 90-minute intervals.",
+    "original_answer": "about 60 to 90 minutes after falling asleep"
+  },
+  {
+    "question": "what can a sleep diary help healthcare providers with?",
+    "answer": "A sleep diary can assist healthcare providers in gaining a comprehensive understanding of your sleep patterns and behaviors, enabling them to see a bigger picture of your overall sleep health and make more informed recommendations for improving your sleep quality.",
+    "original_answer": "see a bigger picture of your sleep"
+  },
+  {
+    "question": "what are the benefits of sleeping on the left side?",
+    "answer": "Sleeping on the left side is beneficial as it helps enhance blood circulation between the heart, fetus, uterus, and kidneys, while also relieving pressure on the liver, promoting overall comfort and health during sleep.",
+    "original_answer": "improves blood flow between the heart, fetus, uterus, and kidneys, while keeping pressure off the liver"
+  },
+  {
+    "question": "what is part of a healthy sleep hygiene?",
+    "answer": "Part of maintaining healthy sleep hygiene involves establishing a consistent sleep schedule, engaging in relaxing activities to wind down before bedtime, and sticking to a regular bedtime routine to promote quality sleep.",
+    "original_answer": "following a sleep schedule, winding down at the end of the day, and keeping a consistent bedtime routine"
+  },
+  {
+    "question": "what should you do if you are experiencing sleep problems or daytime symptoms such as excessive tiredness?",
+    "answer": "If you are experiencing sleep problems or daytime symptoms such as excessive tiredness, it is recommended to schedule an appointment with a medical professional to receive a thorough evaluation and appropriate guidance on potential treatment options and lifestyle changes to improve your sleep quality and overall well-being.",
+    "original_answer": "make an appointment with a medical professional"
+  },
+  {
+    "question": "when is it time to find a replacement mattress?",
+    "answer": "It is time to find a replacement mattress if you notice your current bed is sagging or showing signs of being worn out, as these indicate that the mattress is no longer providing adequate support and comfort for a good night's sleep.",
+    "original_answer": "if your bed is sagging or worn out"
+  },
+  {
+    "question": "what products can help prevent sids?",
+    "answer": "There are no specific commercial products available that have been proven to prevent SIDS (Sudden Infant Death Syndrome), and the best way to reduce the risk is to follow safe sleep practices such as placing babies on their backs to sleep and creating a safe sleep environment.",
+    "original_answer": "there are no commercial products that can prevent sids"
+  },
+  {
+    "question": "what effect does sharing your bed with pets have on the lifespan of a mattress?",
+    "answer": "Sharing your bed with pets can decrease the lifespan of a mattress due to the added wear and tear from pet hair, dander, potential accidents, and increased pressure on the mattress.",
+    "original_answer": "reduce the lifespan"
+  },
+  {
+    "question": "what systems does osa involve?",
+    "answer": "Obstructive sleep apnea (OSA) involves the nervous system, cardiovascular system, and respiratory system, as it causes disruptions in breathing during sleep, leading to decreased oxygen levels, increased stress on the heart, and potential impacts on overall neurological functioning.",
+    "original_answer": "nervous, cardiovascular, and respiratory systems"
+  },
+  {
+    "question": "what are circadian rhythm sleep disorder characterized by?",
+    "answer": "Circadian rhythm sleep disorders are characterized by a disruption or misalignment between an individual's internal body clock and the natural circadian rhythms that control the sleep-wake cycle, leading to difficulties falling asleep, staying asleep, or waking up at the desired times.",
+    "original_answer": "a misalignment between the body and the circadian rhythms that regulate the sleep-wake cycle"
+  },
+  {
+    "question": "how often should you rotate your mattress from head to foot?",
+    "answer": "It is recommended to rotate your mattress from head to foot every 6 months to ensure even wear and maintain its shape and support over time.",
+    "original_answer": "every 6 months"
+  },
+  {
+    "question": "what happens to memory foam when coming into contact with body heat and pressure?",
+    "answer": "When memory foam comes into contact with body heat and pressure, it gradually molds and contours itself to the unique shape and curves of the body, providing personalized comfort and support.",
+    "original_answer": "memory foam will slowly conform to meet the shape of the body"
+  },
+  {
+    "question": "how do you encourage your body to cycle naturally through the sleep stages and optimize your metabolism while sleeping?",
+    "answer": "To encourage your body to naturally cycle through the sleep stages and optimize your metabolism while sleeping, it is essential to adopt proper sleep hygiene habits such as maintaining a consistent sleep schedule, avoiding stimulants before bedtime, and creating a cool, dark, and quiet bedroom environment conducive to restful sleep.",
+    "original_answer": "adopting proper sleep hygiene habits and creating a cool, dark, quiet bedroom environment"
+  },
+  {
+    "question": "how should you try to ward off stress before bedtime?",
+    "answer": "To ward off stress before bedtime, you can engage in calming practices such as using aromatherapy with essential oils or treating yourself to a relaxing mini foot massage with lavender cream, both of which can help promote relaxation and improve sleep quality.",
+    "original_answer": "try aromatherapy with essential oils or give yourself a mini foot massage with lavender cream"
+  },
+  {
+    "question": "how does parkinson's disease lead to insomnia?",
+    "answer": "Parkinson's disease can lead to insomnia due to the direct impact of the disease on the brain's regulation of sleep, as well as the medications used to manage Parkinson's symptoms, which can also contribute to various sleep disturbances.",
+    "original_answer": "both parkinson's disease itself and the medications used to treat it can give rise to a number of sleep problems"
+  },
+  {
+    "question": "how many people experience episodes of sleep talking?",
+    "answer": "Approximately 66% of individuals may experience episodes of sleep talking, a sleep disorder known as somniloquy.",
+    "original_answer": "66%"
+  },
+  {
+    "question": "what are the risks of sleep deprivation in pregnancy?",
+    "answer": "Sleep deprivation during pregnancy increases the likelihood of experiencing mental health issues such as depression, complications like preterm labor, and conditions such as gestational diabetes due to the negative impact on both the mother and the developing fetus.",
+    "original_answer": "a higher chance of depression, preterm labor, and gestational diabetes"
+  },
+  {
+    "question": "how many adults live with insomnia?",
+    "answer": "Up to one-third of adults worldwide are reported to experience insomnia, a common sleep disorder characterized by difficulty falling asleep, staying asleep, or getting restful sleep.",
+    "original_answer": "up to one-third"
+  },
+  {
+    "question": "how many adults watch television the hour before they sleep?",
+    "answer": "Approximately 60% of adults engage in watching television during the hour before they go to sleep, indicating a significant portion of the adult population incorporates this activity into their bedtime routine.",
+    "original_answer": "about 60%"
+  },
+  {
+    "question": "what can switching sleeping position side to side throughout the night prevent?",
+    "answer": "Switching sleeping positions side to side throughout the night can prevent the development of pressure points and potential discomfort that may arise from consistently putting too much pressure on one side of the body.",
+    "original_answer": "putting too much pressure on one side of the body"
+  },
+  {
+    "question": "when does chronic insomnia occur?",
+    "answer": "Chronic insomnia occurs when individuals consistently experience symptoms such as difficulty falling asleep, staying asleep, or waking up too early, at least three times per week for a duration of at least three months.",
+    "original_answer": "when sleepers experience symptoms at least three times per week for at least three months"
+  },
+  {
+    "question": "what two symptoms used to diagnose ptsd are related to sleep?",
+    "answer": "Two symptoms used to diagnose PTSD that are related to sleep are hyperarousal, which can manifest as difficulty falling or staying asleep, and intrusion, which can lead to nightmares or flashbacks disrupting sleep patterns.",
+    "original_answer": "hyperarousal and intrusion"
+  },
+  {
+    "question": "what do circadian rhythm sleep disorders involve?",
+    "answer": "Circadian rhythm sleep disorders involve disturbances affecting the body's internal clock, which plays a crucial role in regulating a person's sleep-wake cycle and can lead to issues with the timing and quality of sleep.",
+    "original_answer": "disruptions to the body's internal clock that helps regulate a person's sleep schedule"
+  },
+  {
+    "question": "how much money spent on electricity goes to lighting households after dark?",
+    "answer": "About 6% of the total electricity expenses are typically allocated to lighting households during nighttime hours.",
+    "original_answer": "about 6%"
+  },
+  {
+    "question": "what stage of sleep is most affected after trauma?",
+    "answer": "After experiencing trauma, the rapid eye movement (REM) stage of sleep is typically the most affected, as individuals may struggle with disrupted REM cycles leading to increased dreaming and emotional processing during sleep.",
+    "original_answer": "rapid eye movement (rem) sleep"
+  },
+  {
+    "question": "how does disrupted sleep affect dementia?",
+    "answer": "Disrupted sleep can exacerbate the symptoms and progression of dementia by impacting cognitive function, memory consolidation, and overall brain health.",
+    "original_answer": "worsen the symptoms and severity of dementia"
+  },
+  {
+    "question": "how does a healthier diet affect sleep?",
+    "answer": "Consuming a healthier diet, rich in fruits, vegetables, whole grains, and lean proteins, can positively impact sleep quality by providing essential nutrients that support optimal sleep patterns and overall well-being.",
+    "original_answer": "improves sleep quality"
+  },
+  {
+    "question": "how can you decrease pressure on your spine?",
+    "answer": "To reduce pressure on your spine, you can place a thin pillow underneath your lower back to provide additional support and help maintain proper spinal alignment while sleeping.",
+    "original_answer": "placing a thin pillow beneath your lower back"
+  },
+  {
+    "question": "when do symptoms of benign neonatal sleep myoclonus start to show?",
+    "answer": "Symptoms of benign neonatal sleep myoclonus typically begin to manifest within the initial month following birth, during which infants may experience involuntary jerking movements during sleep that are generally harmless and tend to resolve on their own.",
+    "original_answer": "within the first month after birth"
+  },
+  {
+    "question": "why may people with night eating syndrome experience poor sleep quality?",
+    "answer": "People with night eating syndrome may experience poor sleep quality because they frequently wake up during the night to eat, disrupting their natural sleep patterns and potentially leading to sleep deprivation and overall sleep disturbances.",
+    "original_answer": "due to waking up during the night to eat"
+  },
+  {
+    "question": "what might help prevent or reduce back pain?",
+    "answer": "Selecting a high-quality mattress that is specifically suited to your individual needs by considering factors such as firmness, support, and alignment can be instrumental in preventing or reducing back pain.",
+    "original_answer": "choosing a good mattress that fits your needs"
+  },
+  {
+    "question": "what antidepressants are known to cause drowsiness for some people?",
+    "answer": "Selective serotonin reuptake inhibitors (SSRIs) and tricyclic antidepressants (TCAs) are two types of antidepressants that are known to cause drowsiness in certain individuals due to their impact on neurotransmitter levels in the brain.",
+    "original_answer": "selective serotonin reuptake inhibitors (ssris) and tricyclic antidepressants (tcas)"
+  },
+  {
+    "question": "what is the cause of sagging?",
+    "answer": "The cause of sagging in a mattress typically results from the normal wear-and-tear that occurs over time as the materials in the mattress compress and lose their original shape and support.",
+    "original_answer": "normal wear-and-tear to your mattress"
+  },
+  {
+    "question": "what is the most common treatment for sleep apnea in adults?",
+    "answer": "The most common treatment for sleep apnea in adults is the use of continuous positive airway pressure (CPAP) machines, which work by delivering a steady stream of air to keep the airway open during sleep, preventing pauses in breathing and improving overall sleep quality and health outcomes.",
+    "original_answer": "continuous positive airway pressure (cpap) machines"
+  },
+  {
+    "question": "what does sleep affect?",
+    "answer": "Sleep significantly impacts multiple facets of your well-being, including but not limited to your emotional state, cognitive function, and immune response, illustrating its importance in maintaining overall health.",
+    "original_answer": "various aspects of your overall health, from your mood to your immune system"
+  },
+  {
+    "question": "what should you do when considering alternative treatments for menopause?",
+    "answer": "When considering alternative treatments for menopause, it is essential to consult with your doctor to discuss safe and effective options tailored to your individual health needs and concerns.",
+    "original_answer": "speak to your doctor"
+  },
+  {
+    "question": "what are the most common firmness levels for pillows?",
+    "answer": "Medium and medium-firm are the most common firmness levels for pillows, offering a balance between support and comfort that caters to a wide range of sleep preferences and positions.",
+    "original_answer": "medium and medium firm"
+  },
+  {
+    "question": "what is the circadian pacemaker strongly influenced by?",
+    "answer": "The circadian pacemaker is strongly influenced by light exposure, as it plays a crucial role in regulating our internal body clock and synchronizing our biological rhythms with the natural light-dark cycle.",
+    "original_answer": "light exposure"
+  },
+  {
+    "question": "how is fiber staple length related to softness?",
+    "answer": "A fiber's staple length directly influences the softness of a material, as longer staple lengths typically result in a softer feel due to the smoother alignment of fibers and reduced chances of poking or pricking sensations against the skin.",
+    "original_answer": "the longer a fiber's staple length, the softer it feels"
+  },
+  {
+    "question": "what drugs can suppress rem sleep?",
+    "answer": "Certain antidepressant medications, such as selective serotonin reuptake inhibitors (SSRIs) and tricyclic antidepressants, are known to suppress REM sleep, which is the stage of sleep associated with vivid dreaming and memory consolidation.",
+    "original_answer": "antidepressant medications"
+  },
+  {
+    "question": "what is stomach sleeping a considerable risk factor for?",
+    "answer": "Stomach sleeping poses a significant risk factor for sudden infant death syndrome (SIDS), a potentially fatal condition where infants under the age of one year unexpectedly die during sleep, often due to difficulties in breathing or regulating their body temperature.",
+    "original_answer": "sudden infant death syndrome (sids)"
+  },
+  {
+    "question": "what do lucid dreams originate from?",
+    "answer": "Lucid dreams typically stem from a state of consciousness where individuals become aware that they are dreaming while in the rapid eye movement (REM) sleep stage, which contrasts with non-lucid dreams where this awareness is absent.",
+    "original_answer": "non-lucid dreams during the rem sleep stage"
+  },
+  {
+    "question": "how many adults get less than 7 hours of sleep each night?",
+    "answer": "Roughly one-third of adults do not get the recommended minimum of 7 hours of sleep each night, which can lead to various health issues and impact overall well-being.",
+    "original_answer": "one-third"
+  },
+  {
+    "question": "how many people experience more recurrent or bothersome episodes that make sleep paralysis especially distressing?",
+    "answer": "Approximately 10% of individuals undergoing sleep paralysis encounter more frequent or troubling occurrences, intensifying the distress associated with this phenomenon.",
+    "original_answer": "10%"
+  },
+  {
+    "question": "what does the amount of water you need to drink each day depend on?",
+    "answer": "The amount of water you need to drink each day depends on factors such as your body weight, activity level, medications you may be taking, and the climate where you live.",
+    "original_answer": "your body weight, activity level, medications, and local climate"
+  },
+  {
+    "question": "what types of nuts contain high levels of melatonin?",
+    "answer": "Pistachios and walnuts are two types of nuts known to contain relatively high levels of melatonin, a hormone that plays a key role in regulating sleep-wake cycles.",
+    "original_answer": "pistachios and walnuts"
+  },
+  {
+    "question": "what are the benefits of morning bright light therapy?",
+    "answer": "Morning bright light therapy has been shown to be beneficial in improving mood, reducing symptoms of insomnia, and addressing night eating issues.",
+    "original_answer": "improve mood, insomnia, and night eating symptoms"
+  },
+  {
+    "question": "what is the purpose of the transitional layer?",
+    "answer": "The purpose of the transitional layer in a mattress is to enhance the comfort layer's support by providing an additional level of cushioning and acting as a buffer between your body and the underlying base materials, ensuring a more comfortable and balanced sleep surface.",
+    "original_answer": "to reinforce the comfort layer and provide a buffer between your body and the base materials"
+  },
+  {
+    "question": "what is insomnia?",
+    "answer": "Insomnia is a sleep disorder characterized by persistent challenges in falling asleep, staying asleep throughout the night, achieving restful sleep, or experiencing overall poor sleep quality.",
+    "original_answer": "persistent difficulty with sleep initiation, duration, consolidation or quality"
+  },
+  {
+    "question": "what are the two types of sleep?",
+    "answer": "There are two main types of sleep stages that alternate throughout the night: non-rapid eye movement (NREM) sleep, which consists of stages 1, 2, and 3, and rapid-eye movement (REM) sleep, which is the stage associated with dreaming and cognitive restoration.",
+    "original_answer": "non-rapid eye movement (nrem) sleep and rapid-eye movement (rem) sleep"
+  },
+  {
+    "question": "when do toddlers need to start sleeping longer at night?",
+    "answer": "Toddlers typically need to start sleeping longer at night as they transition away from napping, which usually occurs around the age of 2 to 3 years old, allowing them to consolidate their sleep into a more extended period during the night.",
+    "original_answer": "as they transition away from napping"
+  },
+  {
+    "question": "what is a popular substitute for memory foam?",
+    "answer": "A popular substitute for memory foam that offers similar comfort and support is natural latex, known for its durability, resilience, and hypoallergenic properties.",
+    "original_answer": "natural latex"
+  },
+  {
+    "question": "what can too high of humidity affect sleep?",
+    "answer": "High humidity levels can disrupt sleep by interfering with the body's ability to cool down, leading to increased awakenings throughout the night and a reduction in the amount of time spent in deep and REM sleep stages.",
+    "original_answer": "keep you awake and decrease the time you spend in deep and rem sleep"
+  },
+  {
+    "question": "what is the standard dosage of melatonin for treating jet lag?",
+    "answer": "There is currently no universally agreed-upon standard dosage of melatonin recommended for treating jet lag, as individual responses to melatonin can vary and research findings have not definitively determined an optimal dosage.",
+    "original_answer": "no standard dosage has been established"
+  },
+  {
+    "question": "what is biofeedback?",
+    "answer": "Biofeedback is a therapeutic technique that involves the use of electronic devices to provide individuals with real-time information about bodily functions, enabling them to learn how to consciously regulate and control these functions for improved physical and mental well-being.",
+    "original_answer": "the use of an electronic device to help patients learn to control functions of the body"
+  },
+  {
+    "question": "what is the biggest issue with biphasic sleep?",
+    "answer": "The biggest issue with biphasic sleep is the increased risk of sleep deprivation due to the disruption of the traditional consolidated sleep pattern, potentially leading to cognitive impairment and health problems.",
+    "original_answer": "the potential for sleep deprivation"
+  },
+  {
+    "question": "what might some people with osa develop when using cpap therapy?",
+    "answer": "Some individuals with obstructive sleep apnea (OSA) may develop treatment-emergent central sleep apnea as a potential side effect of continuous positive airway pressure (CPAP) therapy.",
+    "original_answer": "treatment-emergent central sleep apnea"
+  },
+  {
+    "question": "what should you do if you sleep on your side and are prone to neck pain?",
+    "answer": "If you tend to experience neck pain while sleeping on your side, it is advisable to avoid using a feather pillow as it may not provide adequate support, and instead, choose a supportive latex pillow that can help maintain proper alignment of your head and neck during sleep, potentially reducing discomfort and promoting better sleep quality.",
+    "original_answer": "avoid a feather pillow and opt for a supportive latex pillow instead"
+  },
+  {
+    "question": "what kind of bed is suitable for hot sleepers?",
+    "answer": "Airbeds are a suitable option for hot sleepers as they provide excellent breathability and airflow, helping to regulate body temperature and keep sleepers cool throughout the night.",
+    "original_answer": "airbeds"
+  },
+  {
+    "question": "what gives the signature collection a soft, light feel?",
+    "answer": "The signature collection has a soft and light feel due to its utilization of a 300-thread count combined with a sateen weave, which enhances the overall comfort and luxuriousness of the bedding.",
+    "original_answer": "300-thread count and use a sateen weave"
+  },
+  {
+    "question": "how much sleep do toddlers between 1 to 3 years old need daily?",
+    "answer": "Toddlers between 1 to 3 years old typically require approximately 12 to 14 hours of sleep each day to support their growth, development, and overall well-being.",
+    "original_answer": "about 12 to 14 hours of sleep"
+  },
+  {
+    "question": "what does the 4-7-8 method involve?",
+    "answer": "The 4-7-8 method involves inhaling for four seconds through the nose, holding the breath for a count of seven seconds, and then exhaling slowly through the mouth for a duration of eight seconds, which can help promote relaxation and reduce stress levels.",
+    "original_answer": "four seconds of inhalation through the nose, hold the breath of seven seconds and then exhale through the mount for eight second"
+  },
+  {
+    "question": "what is maintaining a regular bedtime associated with?",
+    "answer": "Maintaining a regular bedtime is associated with a decreased likelihood of experiencing negative health outcomes like obesity and diabetes due to the positive impact it has on regulating hormones, metabolism, and overall bodily functions.",
+    "original_answer": "a reduced risk for adverse health effects such as obesity and diabetes"
+  },
+  {
+    "question": "what are depression and seasonal affective disorder (sad) strongly associated with?",
+    "answer": "Depression and Seasonal Affective Disorder (SAD) are closely linked to night eating syndrome, a condition characterized by consuming a significant amount of food during the evening and nighttime hours, which can contribute to disrupted sleep patterns and worsen symptoms of both depression and SAD.",
+    "original_answer": "night eating syndrome"
+  },
+  {
+    "question": "how do sleep problems in ptsd slow down the recovery process?",
+    "answer": "Sleep problems in individuals with PTSD can slow down the recovery process by disrupting the brain's crucial functions involved in processing and consolidating memories and emotions, ultimately hindering the individual's ability to cope and heal from traumatic experiences.",
+    "original_answer": "interfere with the brain's ability to process memories and emotions"
+  },
+  {
+    "question": "how much sleep do women lose each night after a baby is born?",
+    "answer": "After a baby is born, women typically lose over an hour of sleep each night due to caring for the newborn and adjusting to the baby's feeding schedule and sleep patterns.",
+    "original_answer": "over an hour of sleep"
+  },
+  {
+    "question": "what is essential to healthy napping?",
+    "answer": "Essential components for healthy napping include ensuring that the duration of the nap is appropriate, maintaining a regular napping schedule, and timing the nap strategically to align with the body's natural rhythms for optimal benefits.",
+    "original_answer": "duration, regularity and timing"
+  },
+  {
+    "question": "how many americans have tried a natural sleep aid in the past 12 months?",
+    "answer": "Approximately 20% of Americans have experimented with a natural sleep aid within the last year.",
+    "original_answer": "1 in 5"
+  },
+  {
+    "question": "what might be the issue if your air mattress isn't staying inflated?",
+    "answer": "The potential issue causing your air mattress to not stay inflated could be a hole in the mattress that is allowing air to escape.",
+    "original_answer": "a hole"
+  },
+  {
+    "question": "what can contribute to nighttime heat and humidity levels?",
+    "answer": "The heat and humidity levels during nighttime can be influenced by factors such as the type of clothing worn to bed and the bedding materials being used.",
+    "original_answer": "the clothes you wear to bed, along with your bedding"
+  },
+  {
+    "question": "when may short-term insomnia symptoms begin to dissipate?",
+    "answer": "Short-term insomnia symptoms may start to improve once the underlying stressful situation resolves and the acute stress diminishes, allowing the body to return to its normal sleep patterns.",
+    "original_answer": "once the stressful situation ends and acute stress subsides"
+  },
+  {
+    "question": "when talking about memory foam, what is important to address?",
+    "answer": "When discussing memory foam, it is crucial to cover not only the frequently mentioned advantages such as pressure relief and motion isolation but also to address common issues like heat retention and initial off-gassing odors.",
+    "original_answer": "when talking about memory foam, it is therefore important to address both commonly reported benefits and commonly reported complaints."
+  },
+  {
+    "question": "what quantity is melatonin available to purchase in?",
+    "answer": "Melatonin, a popular sleep aid supplement, is readily available for purchase in the United States without the need for a prescription, allowing individuals to buy it in any desired quantity to suit their needs.",
+    "original_answer": "melatonin is available to purchase in any quantity, without a prescription in the u.s."
+  },
+  {
+    "question": "what are a common cause of insufficient or low-quality sleep?",
+    "answer": "Poor sleep habits, encompassing aspects of sleep hygiene such as irregular sleep schedules, excessive screen time before bed, and a lack of a relaxing bedtime routine, often contribute significantly to insufficient or low-quality sleep.",
+    "original_answer": "poor sleep habits, which are part of sleep hygiene, are a common cause of insufficient or low-quality sleep."
+  },
+  {
+    "question": "what does the contouring effect help minimize?",
+    "answer": "The contouring effect of a mattress helps minimize pressure points by conforming to the body's shape, thereby reducing discomfort and preventing the transfer of movement across the bed for a more restful sleep experience.",
+    "original_answer": "this contouring effect helps minimize pressure and prevent movement from transferring across the bed."
+  },
+  {
+    "question": "what is sleep paralysis?",
+    "answer": "Sleep paralysis is a unsettling experience during which an individual is mentally awake but physically unable to move or speak, often accompanied by a sense of pressure on the chest and a feeling of fear or a presence in the room.",
+    "original_answer": "sleep paralysis is a phenomenon in which a person feels awake but cannot move their body."
+  },
+  {
+    "question": "what should sleepers who are unsure about their health risks do?",
+    "answer": "Sleepers who are uncertain about their health risks should always seek guidance from a physician prior to purchasing a weighted blanket to ensure that it is safe and appropriate for their individual health needs.",
+    "original_answer": "as a general rule, sleepers who are unsure about their health risks should consult a physician before buying a weighted blanket."
+  },
+  {
+    "question": "what does magnesium maintain?",
+    "answer": "Magnesium helps maintain a healthy immune system by supporting various immune functions and promoting a balanced immune response to protect the body against illnesses and infections.",
+    "original_answer": "a healthy immune system"
+  },
+  {
+    "question": "what are hypnopompic hallucinations similar to?",
+    "answer": "Hypnopompic hallucinations, which occur upon waking, are akin to hypnagogic hallucinations experienced while falling asleep, collectively known as hypnagogia.",
+    "original_answer": "hypnopompic hallucinations are similar to hypnagogic hallucinations - together called hypnagogia."
+  },
+  {
+    "question": "why is it important for children to only use their bed for sleeping?",
+    "answer": "It's crucial for children to limit the use of their bed to sleeping only because creating a strong association between their bed and sleep helps them establish a healthy sleep routine and promotes better sleep quality.",
+    "original_answer": "it's important for children to only use their bed for sleeping - otherwise they have a hard time associating their bed with sleep."
+  },
+  {
+    "question": "when were children more likely to report difficulties going to sleep as well as a greater likelihood of having social jet lag?",
+    "answer": "Researchers discovered that when custody arrangements were shared but not equal, children were more prone to experiencing difficulties falling asleep and were also more likely to suffer from social jet lag, emphasizing the impact of disrupted routines on their sleep patterns and overall well-being.",
+    "original_answer": "researchers found that when custody was shared but not equal, children were more likely to report difficulties going to sleep as well as a greater likelihood of having social jet lag."
+  },
+  {
+    "question": "why can sleep aids carry extra risks for people with alzheimer's?",
+    "answer": "Sleep aids can pose additional risks for individuals with Alzheimer's disease due to their potential to increase the risk of falls and injury, exacerbate memory loss and confusion, and potentially induce excessive sedation, which can all be particularly detrimental to individuals with cognitive impairment.",
+    "original_answer": "sleep aids carry extra risks for people with alzheimer's; they can cause falls and injury, increase memory loss and confusion, and may have an overly sedative effect."
+  },
+  {
+    "question": "what is melatonin?",
+    "answer": "Melatonin is a hormone naturally produced by the brain's pineal gland that helps regulate the sleep-wake cycle by signaling to the body that it is time to sleep.",
+    "original_answer": "melatonin is a naturally occurring hormone produced by the brain that promotes sleep."
+  },
+  {
+    "question": "what does the type of transfer aid a caretaker use depends on?",
+    "answer": "The type of transfer aid a caretaker uses depends on various factors pertaining to the individual they are assisting, including considerations such as the person's mobility range, height, weight, and the layout of the household where the transfers are taking place.",
+    "original_answer": "the type of transfer aid a caretaker uses depends on factors related to the person they are helping, such as their mobility range, height and weight, and household layout."
+  },
+  {
+    "question": "what should be done with mold growing in your bedroom?",
+    "answer": "Mold growing in your bedroom, regardless of the type, should be promptly removed to prevent potential health risks and further spread of spores throughout the indoor environment.",
+    "original_answer": "mold growing in your bedroom - no matter the type - should be removed."
+  },
+  {
+    "question": "how does cbt-i work?",
+    "answer": "Cognitive Behavioral Therapy for Insomnia (CBT-I) functions by addressing and transforming maladaptive beliefs and attitudes surrounding sleep while instilling effective strategies and routines to enhance sleep quality and duration.",
+    "original_answer": "cbt-i works by reshaping negative ideas and thoughts about sleep and implementing practical steps for better sleep routines."
+  },
+  {
+    "question": "what is thought to prompt higher dream recall?",
+    "answer": "Taking an active interest in dreams and generally being open to new experiences are believed to enhance dream recall by increasing one's awareness and receptivity to the subtle details and nuances of the dream world, thereby improving the ability to remember and recall dreams more vividly.",
+    "original_answer": "taking an active interest in dreams and generally being open to new experiences are thought to prompt higher dream recall."
+  },
+  {
+    "question": "what must your choice of cpap mask follow?",
+    "answer": "The selection of a CPAP mask should be guided by the recommendation of your sleep specialist, as not all CPAP users may be suitable for all types of CPAP masks due to individual factors such as facial structure, comfort preferences, and breathing patterns.",
+    "original_answer": "not all cpap users are able to use the full range of cpap mask types, and your choice of cpap mask must follow the advice of your sleep specialist."
+  },
+  {
+    "question": "when do many women report greater dream recall?",
+    "answer": "Many women report experiencing heightened dream recall during pregnancy, likely due to hormonal changes and increased sleep disturbances that can lead to more frequent awakenings during REM sleep, when dreams are most vivid and easily remembered.",
+    "original_answer": "during pregnancy"
+  },
+  {
+    "question": "what is widely considered to be the most common cause of excessive sleepiness?",
+    "answer": "The most common cause of excessive sleepiness is generally attributed to a lack of sufficient and restful sleep, which can lead to a variety of daytime drowsiness and cognitive impairments.",
+    "original_answer": "lack of sleep"
+  },
+  {
+    "question": "what can restless sleep in infants be caused by?",
+    "answer": "Restless sleep in infants can be caused by an underlying health problem, such as gastrointestinal issues, respiratory problems, or discomfort from conditions like acid reflux or allergies.",
+    "original_answer": "an underlying health problem"
+  },
+  {
+    "question": "what is one way to learn more about your sleep situation?",
+    "answer": "One effective method to gain a deeper understanding of your sleep patterns and habits is to maintain a detailed sleep journal where you record information such as the quality and duration of your sleep each night.",
+    "original_answer": "to keep a journal with notes about how well and how long you sleep each night"
+  },
+  {
+    "question": "what will the terms and conditions of a mattress warranty vary depending on?",
+    "answer": "The terms and conditions of a mattress warranty will vary depending on factors such as the specific manufacturer and model of the mattress being considered for purchase.",
+    "original_answer": "the manufacturer and model"
+  },
+  {
+    "question": "what are some main signs or symptoms of restless sleep that are often found the next day?",
+    "answer": "The main signs or symptoms of restless sleep that are commonly experienced the following day include feelings of fatigue, sluggishness, and mental fogginess.",
+    "original_answer": "you may feel tired, sluggish, or mentally off"
+  },
+  {
+    "question": "how are menstruation and moon phase correlated?",
+    "answer": "Menstruation and moon phase are not scientifically proven to be correlated, as menstrual cycles are typically governed by hormonal fluctuations within the body rather than external factors such as lunar phases.",
+    "original_answer": "menstruation and moon phase were not correlated."
+  },
+  {
+    "question": "what is circadian rhythm controlled by?",
+    "answer": "The circadian rhythm, which regulates the sleep-wake cycle and other bodily functions, is primarily controlled by a specialized group of cells located in the hypothalamus region of the brain, referred to as the suprachiasmatic nucleus (SCN) or circadian clock.",
+    "original_answer": "a collection of cells in the hypothalamus area of your brain known as the suprachiasmatic nucleus (scn) or circadian clock"
+  },
+  {
+    "question": "where can pseudoephedrine be found?",
+    "answer": "Pseudoephedrine, a decongestant commonly used to relieve nasal congestion, can be found in various over-the-counter cold or allergy medications such as Sudafed.",
+    "original_answer": "pseudoephedrine is found in cold or allergy medications, including sudafed."
+  },
+  {
+    "question": "what will help a toddler become comfortable with the new bed before it becomes their primary sleep space?",
+    "answer": "To help a toddler become comfortable with the new bed before it becomes their primary sleep space, it is beneficial to have them take naps in the new bed to gradually acclimate them to the environment and foster a sense of familiarity and security.",
+    "original_answer": "have them take naps in their new bed"
+  },
+  {
+    "question": "what do sleepers describe their fever dreams as?",
+    "answer": "Sleepers often describe their fever dreams as incredibly strange, filled with unsettling scenarios, and exhibiting heightened emotional intensity.",
+    "original_answer": "bizarre, negative, and emotionally intense"
+  },
+  {
+    "question": "what is one major benefit of memory foam mattresses for people with allergies?",
+    "answer": "Memory foam mattresses are beneficial for individuals with allergies because they are typically hypoallergenic, meaning they are less likely to harbor dust mites, mold, and other allergens compared to traditional mattresses.",
+    "original_answer": "they tend to be hypoallergenic"
+  },
+  {
+    "question": "how many types of sleep apnea are there?",
+    "answer": "There are three main types of sleep apnea, which include obstructive sleep apnea, central sleep apnea, and complex sleep apnea syndrome.",
+    "original_answer": "there are three types of sleep apnea."
+  },
+  {
+    "question": "what has a sedative effect due to a chemical compound called cedrol?",
+    "answer": "Cedarwood oil has a sedative effect due to its chemical compound called cedrol, which helps promote relaxation and improve sleep quality when used in aromatherapy or applied topically.",
+    "original_answer": "cedarwood oil"
+  },
+  {
+    "question": "when should you talk to a doctor about your sleep apnea?",
+    "answer": "If you or your sleep partner notice warning signs such as loud snoring, gasping for air during sleep, or excessive daytime drowsiness, especially in children, it is essential to seek medical advice from a doctor to address potential sleep apnea concerns.",
+    "original_answer": "if you notice any of the above warning signs in yourself, your sleep partner, or your children, it's time to talk to a doctor about your sleep apnea."
+  },
+  {
+    "question": "what does our brain process during rem sleep?",
+    "answer": "During REM sleep, our brain is actively engaged in processing emotions, consolidating memories, and creating vivid dreams, all of which are essential functions for overall cognitive and emotional well-being.",
+    "original_answer": "emotions, consolidates memories, and dreams"
+  },
+  {
+    "question": "how can experiencing cataplexy feel?",
+    "answer": "Experiencing cataplexy can feel emotionally draining and socially isolating, as the sudden loss of muscle control during strong emotions can lead to feelings of vulnerability and detachment from others.",
+    "original_answer": "emotionally draining and socially isolating"
+  },
+  {
+    "question": "why do workplace naps provide a great benefit to employees and their work?",
+    "answer": "Workplace naps are beneficial for employees because they enhance alertness, strengthen memory retention, and improve emotional well-being, ultimately leading to increased productivity and job performance.",
+    "original_answer": "naps enhance alertness, strengthen memory, and improve emotions."
+  },
+  {
+    "question": "what should you do to combat the potential dehydration that often accompanies higher doses of caffeine?",
+    "answer": "To combat the potential dehydration that often accompanies higher doses of caffeine, it is important to drink plenty of water to stay hydrated and help counteract the diuretic effects of caffeine.",
+    "original_answer": "drink plenty of water"
+  },
+  {
+    "question": "when do hypnopompic hallucinations occur?",
+    "answer": "Hypnopompic hallucinations occur during the transitional period between sleep and wakefulness, typically as a person is waking up.",
+    "original_answer": "as a person is waking up"
+  },
+  {
+    "question": "what can parent involvement in bedtime routines and establishing consistent bedtimes for both the parent and child support?",
+    "answer": "Parent involvement in bedtime routines and establishing consistent bedtimes for both the parent and child can promote healthy sleep habits, as children often learn and adopt these habits through observing and modeling their parents' behaviors and routines.",
+    "original_answer": "healthy sleep habits, as children learn through parent modeling"
+  },
+  {
+    "question": "what is an indentation load deflection (ild) rating?",
+    "answer": "An Indentation Load Deflection (ILD) rating is a numerical measure that indicates the firmness of a mattress - generally, the higher the ILD rating, the firmer the mattress will feel when you lie down on it.",
+    "original_answer": "a measure of firmness: the higher the ild rating, the firmer you can expect the mattress to be"
+  },
+  {
+    "question": "what is not typically covered by a mattress warranty?",
+    "answer": "Mattress warranties usually do not cover issues such as spills, stains, water damage, scratches, tears, or any other physical flaws caused by the owner, as these are considered to be the responsibility of the user and not due to manufacturing defects.",
+    "original_answer": "spills, stains, water damage, scratches, tears, or any other physical flaws caused by the owner"
+  },
+  {
+    "question": "what have snoring and obstructive sleep apnea during pregnancy both been linked to?",
+    "answer": "Snoring and obstructive sleep apnea during pregnancy have been associated with a higher likelihood of developing complications such as preeclampsia, gestational diabetes, and the need for unplanned cesarean sections.",
+    "original_answer": "an increased risk of preeclampsia, gestational diabetes, and unplanned c-section"
+  },
+  {
+    "question": "how often should mattresses be replaced?",
+    "answer": "Mattresses should be replaced approximately every 8 years to ensure optimal support and comfort for quality sleep and to prevent the accumulation of allergens and wear and tear that can affect sleep quality.",
+    "original_answer": "every 8 years"
+  },
+  {
+    "question": "when should you consider help from a sleep specialist or other licensed professional?",
+    "answer": "If symptoms of excessive sleepiness such as ongoing fatigue, difficulty concentrating, or disrupted sleep patterns persist for more than three months, it is advisable to seek help from a sleep specialist or another licensed professional to address and properly manage the underlying sleep disorders or conditions.",
+    "original_answer": "if symptoms of excessive sleepiness persist longer than 3 months"
+  },
+  {
+    "question": "how much sleep should most adults between the ages of 18 and 64 get?",
+    "answer": "Most adults between the ages of 18 and 64 should aim to get between seven to nine hours of sleep per day to ensure optimal health and well-being, as this amount of sleep supports cognitive function, emotional well-being, and overall physical health.",
+    "original_answer": "seven to nine hours per day"
+  },
+  {
+    "question": "what are examples of habits and routines that can lead to restless sleep?",
+    "answer": "Examples of habits and routines that can lead to restless sleep include having an irregular sleep schedule, which disrupts the body's internal clock; using electronic devices in bed, as the blue light emitted can interfere with the production of sleep-inducing hormones; and eating too late at night, which can cause indigestion and disrupt the body's ability to relax and prepare for sleep.",
+    "original_answer": "having an inconsistent sleep schedule, using electronic devices in bed, and eating too late at night"
+  },
+  {
+    "question": "what may off-gassing cause for those who are sensitive to strong odors?",
+    "answer": "Off-gassing can lead to temporary symptoms like headaches, nausea, or dizziness for individuals who are sensitive to strong odors due to the release of volatile organic compounds (VOCs) from various products and materials in the environment.",
+    "original_answer": "temporary symptoms, such as headache, nausea, or dizziness"
+  },
+  {
+    "question": "what occurs during non-rapid eye movement (nrem) sleep?",
+    "answer": "During non-rapid eye movement (NREM) sleep, your heart rate, breathing rate, body temperature, and brain activity will gradually decrease as your body enters a state of deep relaxation and physical restoration.",
+    "original_answer": "your heart rate, breathing rate, body temperature, and brain activity will all gradually decrease"
+  },
+  {
+    "question": "why is it important to find and treat the cause of your hypercapnia?",
+    "answer": "It is crucial to identify and address the underlying cause of hypercapnia in order to lower the likelihood of experiencing potential health complications associated with this condition.",
+    "original_answer": "to reduce the risk of complications"
+  },
+  {
+    "question": "why may memory foam mattresses often cost more than basic polyfoam models?",
+    "answer": "Memory foam mattresses often cost more than basic polyfoam models due to the utilization of premium materials in their manufacturing process, which enhances comfort, support, and durability.",
+    "original_answer": "because of the high-quality materials used to manufacture them"
+  },
+  {
+    "question": "what does the circadian rhythm do?",
+    "answer": "The circadian rhythm plays a crucial role in coordinating the body's sleep-wake patterns, regulating body temperature fluctuations, aligning meal timing with metabolic processes, and controlling various other biological functions throughout the day and night.",
+    "original_answer": "synchronizes sleep-wake patterns, body temperature, meal timing, and other biological functions"
+  },
+  {
+    "question": "where can guided sleep meditation videos be found?",
+    "answer": "Guided sleep meditation videos can be easily accessed and found online through platforms like YouTube, offering a wide variety of options to help individuals relax and improve their sleep quality.",
+    "original_answer": "online through youtube"
+  },
+  {
+    "question": "why should you try not to overindulge at dinnertime?",
+    "answer": "Overindulging at dinnertime should be avoided as consuming larger meals can lead to indigestion, which in turn may disrupt your ability to fall asleep and stay asleep throughout the night.",
+    "original_answer": "as eating larger meals can cause indigestion and interfere with sleep"
+  },
+  {
+    "question": "what does suvorexant block?",
+    "answer": "Suvorexant blocks the action of orexin, a neuropeptide involved in regulating wakefulness and sleep.",
+    "original_answer": "orexin"
+  },
+  {
+    "question": "what is caffeine?",
+    "answer": "Caffeine is a central nervous system stimulant that can have a prolonged presence in your body, affecting your ability to fall asleep and possibly leading to sleep disturbances like insomnia if consumed later in the day.",
+    "original_answer": "a stimulant that can stay in your system for hours, making it harder to get to sleep and potentially contributing to insomnia when used in the afternoon and evening"
+  },
+  {
+    "question": "how can the way a person is affected by insomnia vary?",
+    "answer": "The way a person is affected by insomnia can vary depending on factors such as the underlying cause of the sleep disorder, its severity, and how it is impacted by any existing health conditions that may exacerbate the symptoms.",
+    "original_answer": "based on its cause, severity, and how it is influenced by underlying health conditions"
+  },
+  {
+    "question": "what symptoms may occur from mold exposure in people with underlying health conditions or a weakened immune system?",
+    "answer": "Individuals with underlying health conditions or a weakened immune system who are exposed to mold may experience heightened symptoms like fever, difficulty breathing, and the development of lung infections.",
+    "original_answer": "more severe symptoms such as fever, shortness of breath, and lung infection"
+  },
+  {
+    "question": "what has meditation been shown to reduce?",
+    "answer": "Meditation has been scientifically proven to be effective in reducing symptoms of anxiety, depression, and pain, making it a valuable and holistic approach to improving mental and physical well-being.",
+    "original_answer": "anxiety, depression, and pain"
+  },
+  {
+    "question": "how many hours of sleep are adults are supposed to get?",
+    "answer": "Adults are recommended to aim for between seven to nine hours of sleep per night to support overall health and well-being, as this duration allows for sufficient rest and rejuvenation.",
+    "original_answer": "between seven and nine hours of sleep"
+  },
+  {
+    "question": "what can increase a person's risk of insomnia?",
+    "answer": "Unhealthy habits and routines related to lifestyle choices, such as irregular sleep schedules, excessive screen time before bed, poor diet, and consuming stimulants like caffeine and alcohol, can significantly elevate a person's risk of developing insomnia.",
+    "original_answer": "unhealthy habits and routines related to lifestyle and food and drink"
+  },
+  {
+    "question": "why is latex a popular mattress material?",
+    "answer": "Latex is a popular mattress material because of its reputation for durability, responsiveness, and excellent ventilation properties, making it a preferred choice for those seeking a long-lasting and comfortable sleep surface.",
+    "original_answer": "due to its durability, responsiveness, and ventilation"
+  },
+  {
+    "question": "what are a known cause of allergic rhinitis?",
+    "answer": "Indoor molds are a well-documented cause of allergic rhinitis due to their ability to release spores that can trigger allergic reactions in sensitive individuals when inhaled.",
+    "original_answer": "indoor molds"
+  },
+  {
+    "question": "what does regular exercise reduce the risk of?",
+    "answer": "Regular exercise helps reduce the risk of developing cardiovascular disease, diabetes, and certain types of cancers, emphasizing the significant impact physical activity can have on overall health and well-being.",
+    "original_answer": "cardiovascular disease, diabetes, and some cancers"
+  },
+  {
+    "question": "what can letting your toddler make the final choice give them?",
+    "answer": "Allowing your toddler to make the final choice can empower them with a sense of autonomy and control over their decision, fostering independence and potentially increasing their enthusiasm for transitioning to a new routine.",
+    "original_answer": "a sense of autonomy and control and may help them get excited to make the switch"
+  },
+  {
+    "question": "what should you do if you get into bed and cannot fall asleep after 20 minutes?",
+    "answer": "If you find yourself unable to fall asleep after 20 minutes of being in bed, it's beneficial to get up and move to another area of your house to engage in a calming activity like reading or listening to quiet music to help facilitate sleepiness.",
+    "original_answer": "get up, go to another part of your house, and do something soothing, such as reading or listening to quiet music"
+  },
+  {
+    "question": "who are high-rise platform beds an excellent option for?",
+    "answer": "High-rise platform beds are an excellent option for individuals seeking to maximize space in their bedroom by providing ample storage opportunities beneath the bed.",
+    "original_answer": "anyone who wants extra space for storage"
+  },
+  {
+    "question": "who has high rates of using electronic devices in their bedroom?",
+    "answer": "Adolescents, particularly teenagers, are known to have high rates of using electronic devices in their bedroom, which can significantly impact their sleep quality and overall well-being.",
+    "original_answer": "teens"
+  },
+  {
+    "question": "how long does the average mattress last?",
+    "answer": "On average, a mattress typically lasts between 6 to 8 years before it may need to be replaced due to wear and tear, changes in comfort, or loss of support.",
+    "original_answer": "6-8 years"
+  },
+  {
+    "question": "how much sleep should adults between the ages of 19 and 64 sleep per night?",
+    "answer": "Adults between the ages of 19 and 64 should aim to get seven to nine hours of sleep per night to support overall health and well-being, as this duration allows for adequate rest and the body's essential recovery processes during sleep.",
+    "original_answer": "seven to nine hours"
+  },
+  {
+    "question": "what can take a toll on psychological well being and create sleep problems that can last for months afterwards?",
+    "answer": "Major stressful life events, such as natural disasters or terrorist attacks, can significantly impact psychological well-being, leading to prolonged sleep disturbances that may persist for months thereafter.",
+    "original_answer": "major stressful life events - from natural disasters to terrorist attacks"
+  },
+  {
+    "question": "what are examples of benefits a regular bedtime routine has?",
+    "answer": "A consistent bedtime routine can lead to enhanced sleep quality, support language development in children, aid in emotional regulation, and strengthen the bond between parents and their children.",
+    "original_answer": "improved sleep quality, language development, emotional regulation, and parent-child bonding"
+  },
+  {
+    "question": "what does off-gassing refer to?",
+    "answer": "Off-gassing refers to the release of a chemical-like odor that occurs when a new mattress is unpackaged and aired out, which is a common occurrence due to the materials used in its construction.",
+    "original_answer": "the odor that comes off the mattress after unboxing and/or opening it"
+  },
+  {
+    "question": "what types of pillows can help prevent or reduce neck pain?",
+    "answer": "Spring pillows and memory foam pillows are two types of pillows that can help prevent or reduce neck pain by providing proper support and alignment for the neck and head during sleep, promoting better spinal alignment and reducing strain on the neck muscles.",
+    "original_answer": "spring pillows and memory foam pillows"
+  },
+  {
+    "question": "what are great resources for low-cost or even free materials?",
+    "answer": "Thrift stores and community marketplace websites are excellent sources for finding affordable or even no-cost materials for various needs, offering a wide range of items that can suit different preferences and budgets.",
+    "original_answer": "thrift stores and community marketplace websites"
+  },
+  {
+    "question": "what acts as a protective function against insomnia?",
+    "answer": "Regular exercise serves as a protective function against insomnia by helping regulate the body's circadian rhythm, reduce stress levels, and promote overall relaxation, all of which contribute to better sleep quality.",
+    "original_answer": "exercise"
+  },
+  {
+    "question": "when could couch sleeping contribute to neck and shoulder pain?",
+    "answer": "Couch sleeping could contribute to neck and shoulder pain when an individual adopts an asymmetrical sleeping position, causing strain and discomfort in those areas due to the lack of proper support and alignment.",
+    "original_answer": "if couch sleeping leads to an asymmetrical sleeping position"
+  },
+  {
+    "question": "how do binaural beats affect sleep?",
+    "answer": "Binaural beats, through the process of auditory stimulation, have been shown to assist in improving sleep quality and promoting better sleep patterns.",
+    "original_answer": "binaural beats can help you sleep better"
+  },
+  {
+    "question": "what does overcoming jet lag depend on?",
+    "answer": "Overcoming jet lag depends on aligning your body's 24-hour internal clock, also known as the circadian rhythm, with the 24-hour day at your destination to minimize the disruption to your sleep patterns and help your body adjust to the new time zone effectively.",
+    "original_answer": "getting your body's 24-hour internal clock synchronized with the 24-hour day at your destination"
+  },
+  {
+    "question": "what is epilepsy?",
+    "answer": "Epilepsy is a complex neurological condition encompassing a wide range of over 30 disorders characterized by abnormal brain activity, leading to a heightened susceptibility to recurrent seizures.",
+    "original_answer": "a group of over 30 disorders in which abnormal brain activity causes a predisposition to seizures"
+  },
+  {
+    "question": "what sleeping position can cause airway collapse due to gravity?",
+    "answer": "Sleeping on your back can cause airway collapse due to gravity, as this position may lead to the tongue and soft tissues at the back of the throat falling backward and potentially obstructing the airway during sleep.",
+    "original_answer": "sleeping on your back"
+  },
+  {
+    "question": "what effect do most sleeping pills have?",
+    "answer": "Most sleeping pills can have a potent impact that may leave you feeling disoriented and drowsy for an extended period, even following awakening, potentially affecting your cognitive functioning and daily activities.",
+    "original_answer": "a powerful effect that can make you feel out-of-sorts and groggy for longer than expected, including after you wake up"
+  },
+  {
+    "question": "when are melatonin levels in the placenta highest?",
+    "answer": "Melatonin levels in the placenta are at their highest during the first trimester of pregnancy, which is a critical period for the development of the fetus and plays a significant role in regulating the circadian rhythms of both the mother and the developing baby.",
+    "original_answer": "during the first trimester"
+  },
+  {
+    "question": "how long are you likely to spend dreaming over the course of a night?",
+    "answer": "On average, you are likely to spend approximately two hours engaged in dreaming during a typical night's sleep, as dreaming occurs more frequently during the rapid eye movement (REM) stage of the sleep cycle.",
+    "original_answer": "about two hours"
+  },
+  {
+    "question": "what forces teens to wake up much earlier in the morning?",
+    "answer": "Teens are often required to wake up much earlier in the morning primarily due to the early start times set by most school districts, which can disrupt their natural sleep patterns and lead to sleep deprivation.",
+    "original_answer": "school start times in most school districts"
+  },
+  {
+    "question": "what are glasses informally as blue-blocking glasses or amber glasses designed to do?",
+    "answer": "Blue-blocking glasses, also known informally as amber glasses, are specifically designed to block blue light, which can disrupt the body's natural sleep-wake cycle and contribute to eye strain and sleep disturbances.",
+    "original_answer": "block blue light"
+  },
+  {
+    "question": "how often should you clean your mattress?",
+    "answer": "It is generally recommended to clean your mattress approximately every six months to maintain its hygiene and prolong its lifespan.",
+    "original_answer": "once every 6 months or so"
+  },
+  {
+    "question": "what does daily exercise contribute to?",
+    "answer": "Daily exercise contributes to promoting more restful sleep by helping regulate the body's natural sleep-wake cycle, reducing stress and anxiety levels, and enhancing overall physical health, all of which can contribute to improved sleep quality and duration.",
+    "original_answer": "more restful sleep"
+  },
+  {
+    "question": "what should you do if you have any concerns about your yoga practice?",
+    "answer": "If you have any concerns about your yoga practice, it is important to seek guidance and advice from a qualified yoga instructor and/or a physician to address your specific needs and ensure you practice safely and effectively.",
+    "original_answer": "consult a yoga instructor and/or a physician"
+  },
+  {
+    "question": "what can people who consume caffeine regularly develop?",
+    "answer": "People who consume caffeine regularly can develop a tolerance to it, which means their bodies may become less responsive to the stimulant effects of caffeine over time, requiring higher doses to achieve the same level of alertness.",
+    "original_answer": "a tolerance to it"
+  },
+  {
+    "question": "what can the mslt be used to diagnose?",
+    "answer": "The Multiple Sleep Latency Test (MSLT) can be used as a diagnostic tool to confirm narcolepsy by measuring how quickly a person falls asleep and enters rapid eye movement (REM) sleep during daytime naps.",
+    "original_answer": "narcolepsy"
+  },
+  {
+    "question": "what are the most important stages of sleep?",
+    "answer": "Slow-wave sleep and rapid eye movement (REM) sleep are the two most crucial stages of the sleep cycle, with slow-wave sleep promoting physical restoration and deep restorative sleep, while REM sleep is essential for cognitive functioning, memory consolidation, and emotional regulation.",
+    "original_answer": "slow-wave and rapid eye movement (rem) sleep"
+  },
+  {
+    "question": "what are men more likely to be resistant to?",
+    "answer": "Men are more likely to be resistant to sleeping in warmer bedroom temperatures due to their higher metabolic rates and tendency to generate more body heat during sleep.",
+    "original_answer": "warmer bedroom temperatures"
+  },
+  {
+    "question": "what is a concussion?",
+    "answer": "A concussion is a form of mild traumatic brain injury that occurs due to a sudden impact or blow to the head, resulting in temporary disruption of normal brain function.",
+    "original_answer": "a type of mild traumatic brain injury"
+  },
+  {
+    "question": "what can contribute to facial wrinkles?",
+    "answer": "Sleeping on the stomach can contribute to the formation of facial wrinkles since the consistent pressure and friction against the pillow can lead to the development of lines and creases on the skin over time.",
+    "original_answer": "sleeping on the stomach"
+  },
+  {
+    "question": "who are the benefits of meditation enhanced in?",
+    "answer": "The benefits of meditation are typically enhanced in individuals who have been long-term practitioners and have developed a consistent meditation practice over an extended period of time.",
+    "original_answer": "long-term practitioners"
+  },
+  {
+    "question": "what is a normal part of having a new baby?",
+    "answer": "It is completely normal to experience fatigue and sleep deprivation as a parent of a new baby due to the round-the-clock care, feedings, and unpredictable sleep patterns that come with caring for a newborn.",
+    "original_answer": "being tired"
+  },
+  {
+    "question": "who should decide whether someone fits the profile for a home sleep apnea test?",
+    "answer": "A sleep specialist is the most qualified professional to determine whether an individual meets the criteria for a home sleep apnea test based on their expertise in diagnosing and managing sleep disorders.",
+    "original_answer": "a sleep specialist"
+  },
+  {
+    "question": "what can alter a woman's sleep architecture?",
+    "answer": "Fluctuating hormone levels, such as those experienced during the menstrual cycle, pregnancy, and menopause, can alter a woman's sleep architecture by affecting the quality and quantity of sleep stages, leading to disruptions in overall sleep patterns and potentially causing sleep disturbances.",
+    "original_answer": "fluctuating hormone levels"
+  },
+  {
+    "question": "what is progressive muscle relaxation?",
+    "answer": "Progressive muscle relaxation is a stress-reduction technique where you systematically tense specific muscle groups throughout the body, one at a time, and then release the tension, promoting a deep sense of relaxation and helping to alleviate physical and mental tension.",
+    "original_answer": "technique that involves sequentially tensing and then relaxing each muscle, from your toes to your head"
+  },
+  {
+    "question": "what is memory foam also known as?",
+    "answer": "Memory foam is also commonly referred to as viscoelastic foam, a material known for its ability to contour to the body's shape and provide excellent pressure relief during sleep.",
+    "original_answer": "viscoelastic foam"
+  },
+  {
+    "question": "who is more likely to develop postpartum depression?",
+    "answer": "Mothers who report very poor or drastically decreasing sleep quality during pregnancy are at a higher risk of developing postpartum depression due to the impact of disrupted sleep patterns on mental health during the postpartum period.",
+    "original_answer": "mothers who report very poor or drastically decreasing sleep quality during pregnancy"
+  },
+  {
+    "question": "what can vary from person to person?",
+    "answer": "Symptoms of chronic fatigue syndrome can vary greatly from person to person in terms of severity, duration, and specific manifestations, making it a complex condition to diagnose and treat effectively.",
+    "original_answer": "symptoms of chronic fatigue syndrome"
+  },
+  {
+    "question": "who is rls more common in?",
+    "answer": "Restless Legs Syndrome (RLS) is more commonly found in women, with studies showing a higher prevalence in females compared to males.",
+    "original_answer": "women"
+  },
+  {
+    "question": "what can reduce the half-life of caffeine?",
+    "answer": "Nicotine is known to reduce the half-life of caffeine, which can lead to a faster metabolism and clearance of caffeine from the body.",
+    "original_answer": "nicotine"
+  },
+  {
+    "question": "what can help children sleep better?",
+    "answer": "Improving children's sleep hygiene, which involves creating a consistent bedtime routine, ensuring a comfortable sleep environment, and limiting screen time before bed, can greatly enhance their ability to sleep better.",
+    "original_answer": "taking steps to improve their sleep hygiene"
+  },
+  {
+    "question": "who can the arousing effects of caffeine benefit?",
+    "answer": "The arousing effects of caffeine can be beneficial for individuals who experience feelings of fogginess and tiredness, as caffeine can help improve alertness and combat drowsiness.",
+    "original_answer": "someone who feels foggy and tired"
+  },
+  {
+    "question": "what are sleep deprived people less aware of?",
+    "answer": "Sleep-deprived individuals are often less aware of their cognitive shortcomings, such as impaired decision-making, decreased attention span, and reduced ability to problem-solve effectively.",
+    "original_answer": "their cognitive shortcomings"
+  },
+  {
+    "question": "what does an eeg measure?",
+    "answer": "An EEG (electroencephalogram) measures the electrical activity in the brain by recording and analyzing the patterns of brain waves, which can provide valuable information about brain function and activity during different stages of sleep.",
+    "original_answer": "electrical activity in the brain"
+  },
+  {
+    "question": "what can alzheimer's disease be affected by?",
+    "answer": "Alzheimer's disease can be influenced by poor sleep quality, as research suggests that insufficient or disrupted sleep may contribute to cognitive decline and increase the risk of developing Alzheimer's disease.",
+    "original_answer": "poor sleep quality"
+  },
+  {
+    "question": "what can cause problems with sleep regulation?",
+    "answer": "A reduction in gray matter, which can result from various factors such as aging, stress, or certain medical conditions, can disrupt the brain's ability to properly regulate sleep patterns and lead to sleep problems.",
+    "original_answer": "reduction in gray matter"
+  },
+  {
+    "question": "what does lack of sleep cause athletes to do?",
+    "answer": "Lack of sleep can lead athletes to overestimate their perceived level of exertion, which can result in poor performance and increased risk of injury due to reduced cognitive function and impaired judgment.",
+    "original_answer": "overestimate their perceived level of exertion"
+  },
+  {
+    "question": "what conditions can inflame the sinuses?",
+    "answer": "Conditions such as a cold, strep throat, or seasonal allergies can lead to sinus inflammation, causing symptoms like congestion, facial pain, and sinus pressure.",
+    "original_answer": "a cold, strep throat, or seasonal allergies"
+  },
+  {
+    "question": "what is periodic limb movement disorder characterized by?",
+    "answer": "Periodic limb movement disorder is characterized by the occurrence of repetitive, involuntary movements involving the legs and sometimes the feet during sleep, which can disrupt the individual's rest and lead to fragmented sleep patterns.",
+    "original_answer": "periodic, repetitive movements of the legs and feet during sleep"
+  },
+  {
+    "question": "what is pink noise?",
+    "answer": "Pink noise is a type of sound that includes equal energy per octave across the frequency range, making it a broadband sound that consists of various components from low to high frequencies.",
+    "original_answer": "a broadband sound containing components from across the sound spectrum"
+  },
+  {
+    "question": "what can jet lag do?",
+    "answer": "Jet lag can result in extreme daytime fatigue, disrupting the body's natural sleep-wake cycle and causing individuals to feel excessively tired and unable to function at their best during the day.",
+    "original_answer": "make people very tired during the day"
+  },
+  {
+    "question": "what can the results of polysomnography be affected by?",
+    "answer": "The results of polysomnography can be affected by the unfamiliar sleep environment of a lab setting, which may influence a person's ability to sleep naturally and may impact the accuracy of the sleep study.",
+    "original_answer": "by having to sleep in a lab"
+  },
+  {
+    "question": "what substances are sometimes used to treat rls?",
+    "answer": "Valerian, a herbal supplement known for its calming effects, and valproic acid, a medication often prescribed for seizure disorders, are substances sometimes used to treat Restless Legs Syndrome (RLS) due to their potential to alleviate symptoms and improve sleep quality.",
+    "original_answer": "valerian and valproic acid"
+  },
+  {
+    "question": "when does a clear preference for side sleeping emerge?",
+    "answer": "A clear preference for side sleeping typically emerges by adulthood, as individuals often find this position most comfortable and conducive to a restful night's sleep due to the natural alignment it provides for the spine.",
+    "original_answer": "by adulthood"
+  },
+  {
+    "question": "what factors does the optimal plan to avoid jet lag depend on?",
+    "answer": "The optimal plan to avoid jet lag depends on various factors such as the direction of your flight, the number of time zones crossed, the duration of your stay at your destination, as well as your itinerary and commitments while traveling.",
+    "original_answer": "the direction of your flight, the number of time zones crossed, how long you will remain at your destination, and your schedule and obligations during your trip"
+  },
+  {
+    "question": "who is sleep apnea more common in?",
+    "answer": "Sleep apnea is more common in infants under 1 year of age due to their underdeveloped airways and neurological control of breathing during sleep.",
+    "original_answer": "infants under 1 year of age"
+  },
+  {
+    "question": "why are mattresses more complicated and expensive to ship than most other items?",
+    "answer": "Mattresses are more complicated and expensive to ship than most other items due to their large dimensions and heavy weight, which necessitate specialized packaging and handling to ensure safe transport.",
+    "original_answer": "because of their size and weight"
+  },
+  {
+    "question": "what leads to a 25% reduction in severity of osa?",
+    "answer": "A 12-week regimen of aerobic and resistance training has been shown to result in a 25% reduction in the severity of obstructive sleep apnea (OSA), highlighting the beneficial impact of structured exercise programs on this sleep disorder.",
+    "original_answer": "a 12-week regimen of aerobic and resistance training"
+  },
+  {
+    "question": "when should you see a doctor as soon as possible?",
+    "answer": "If you are exhibiting symptoms of a concussion, such as persistent headache, confusion, dizziness, or nausea, following an injury, it is crucial to seek immediate medical attention to ensure proper evaluation and treatment.",
+    "original_answer": "if you have concussion symptoms after experiencing an injury"
+  },
+  {
+    "question": "when can sleep paralysis happen?",
+    "answer": "Sleep paralysis can occur during the transition periods between wakefulness and sleep, typically when you are either falling asleep or waking up from sleep.",
+    "original_answer": "as you are falling asleep or waking up"
+  },
+  {
+    "question": "what tends to cause greater motion transfer?",
+    "answer": "Bouncy mattresses tend to cause greater motion transfer because their springiness allows movements to easily transfer across the surface, potentially disrupting a partner's sleep.",
+    "original_answer": "bouncy mattresses"
+  },
+  {
+    "question": "what does the mattress glossary help translate?",
+    "answer": "The mattress glossary helps translate the various terms and jargon used in the industry that pertain to mattress construction, performance, sizing, and policies, making it easier for consumers to understand and compare different mattresses.",
+    "original_answer": "the industry's common terminology related to mattress construction, performance, sizing, and policies"
+  },
+  {
+    "question": "what can a sleep diary be an important tool in?",
+    "answer": "A sleep diary can be an important tool in assisting your doctor in identifying patterns and potential underlying causes contributing to your sleep issues, ultimately aiding in pinpointing the root of your problem.",
+    "original_answer": "helping your doctor get to the root of your problem"
+  },
+  {
+    "question": "what is sleep paralysis?",
+    "answer": "Sleep paralysis is a phenomenon characterized by a temporary inability to move voluntary muscles, often occurring when waking up or falling asleep, which can be accompanied by hallucinations and a sense of pressure on the chest.",
+    "original_answer": "a temporary loss of voluntary muscle control while waking up or falling asleep"
+  },
+  {
+    "question": "what are leptin and ghrelin?",
+    "answer": "Leptin and ghrelin are essential hormones in the body that play a significant role in regulating appetite and hunger levels, with leptin typically signaling feelings of fullness and ghrelin stimulating hunger signals.",
+    "original_answer": "hormones that help control appetite and hunger"
+  },
+  {
+    "question": "what are hallmarks of alzheimer's disease?",
+    "answer": "The hallmarks of Alzheimer's disease are the presence of abnormal clumps of tau protein within neurons and the accumulation of amyloid plaques in the brain, which are associated with the progression of the disease.",
+    "original_answer": "tau protein and amyloid plaques"
+  },
+  {
+    "question": "what can high-carbohydrate meals impair?",
+    "answer": "High-carbohydrate meals can impair sleep quality by causing fluctuations in blood sugar levels and potentially disrupting the body's natural sleep-wake cycle.",
+    "original_answer": "sleep quality"
+  },
+  {
+    "question": "what are women more likely to experience?",
+    "answer": "Women are more likely to experience a combination of symptoms associated with insomnia, such as difficulty falling asleep, waking up frequently during the night, or waking up too early and being unable to go back to sleep.",
+    "original_answer": "multiple symptoms of insomnia"
+  },
+  {
+    "question": "what can wearing socks to bed help?",
+    "answer": "Wearing socks to bed can assist in falling asleep faster and staying asleep longer by keeping your feet warm, which helps to dilate blood vessels and signals to your brain that it's time for sleep.",
+    "original_answer": "fall asleep faster and stay asleep longer"
+  },
+  {
+    "question": "what can prompt you to wake up during the night?",
+    "answer": "Hormonal changes, such as fluctuations in cortisol and melatonin levels, can prompt awakenings during the night as they impact the body's sleep-wake cycle.",
+    "original_answer": "hormonal changes"
+  },
+  {
+    "question": "what can actigraphy be used in combination with?",
+    "answer": "Actigraphy can be utilized in conjunction with other sleep tests, such as a sleep log or an overnight sleep test, to provide a comprehensive assessment of an individual's sleep patterns and disturbances.",
+    "original_answer": "another sleep test such as a sleep log or an overnight sleep test"
+  },
+  {
+    "question": "what should be done to most mattresses?",
+    "answer": "To ensure even wear and prolong the lifespan of most mattresses, it is recommended to rotate them regularly, typically every 3 to 6 months, to prevent excessive sagging and indentations.",
+    "original_answer": "rotated regularly"
+  },
+  {
+    "question": "what does white noise refer to?",
+    "answer": "White noise refers to a type of noise that encompasses all frequencies in the audible sound spectrum, producing a consistent sound that can help mask other sounds and promote relaxation and better sleep.",
+    "original_answer": "noise that contains all frequencies across the spectrum of audible sound in equal measure"
+  },
+  {
+    "question": "what should body positioning during sleep be chosen based on?",
+    "answer": "Body positioning during sleep should be chosen based on what feels most comfortable to you, as individual preferences and comfort levels play a crucial role in promoting restful sleep and preventing discomfort or pain.",
+    "original_answer": "what feels most comfortable to you"
+  },
+  {
+    "question": "why do experts recommend people with osa avoid using weighted blankets?",
+    "answer": "Experts recommend that individuals with obstructive sleep apnea (OSA) avoid using weighted blankets because the weight of a heavy blanket can potentially compress the chest and restrict airflow during sleep, exacerbating breathing difficulties.",
+    "original_answer": "weight of a heavy blanket may restrict airflow"
+  },
+  {
+    "question": "what is a common treatment for anxiety disorders?",
+    "answer": "Cognitive behavioral therapy, a widely used intervention for anxiety disorders, helps individuals identify and modify negative thought patterns and behaviors that contribute to anxiety, leading to long-term symptom relief and improved coping strategies.",
+    "original_answer": "cognitive behavioral therapy"
+  },
+  {
+    "question": "what can sleep doctors educate patients on?",
+    "answer": "Sleep doctors can educate patients on a wide range of sleep hygiene practices, including establishing a consistent sleep schedule, creating a relaxing bedtime routine, optimizing the sleep environment, and avoiding stimulants close to bedtime.",
+    "original_answer": "sleep hygiene practices"
+  },
+  {
+    "question": "what does memory foam absorb?",
+    "answer": "Memory foam primarily absorbs most surface-level motion, such as minor movements and vibrations, which helps to isolate and reduce disturbances during sleep.",
+    "original_answer": "most surface-level motion"
+  },
+  {
+    "question": "what changes as we grow older?",
+    "answer": "Our respiratory rate at rest tends to decrease as we age, reflecting changes in our cardiovascular and respiratory systems that occur as we grow older.",
+    "original_answer": "our respiratory rate at rest"
+  },
+  {
+    "question": "what does caffeine use cause?",
+    "answer": "Caffeine use can lead to sleep deprivation, as its stimulating effects can interfere with the ability to fall and stay asleep, resulting in insufficient and poor-quality sleep.",
+    "original_answer": "sleep deprivation"
+  },
+  {
+    "question": "what can contribute to symptoms of anxiety?",
+    "answer": "Certain health conditions and medications can contribute to the symptoms of anxiety, as they may disrupt the body's natural balance and affect neurotransmitter levels that regulate mood and anxiety.",
+    "original_answer": "some health problems and drugs"
+  },
+  {
+    "question": "what plays a key role in a child's physical and mental health?",
+    "answer": "Sleep quality and duration are critical factors that significantly influence a child's physical and mental health, as they directly impact growth, development, cognitive function, emotional well-being, and overall health outcomes.",
+    "original_answer": "sleep quality and duration"
+  },
+  {
+    "question": "what is a benefit of stomach sleeping?",
+    "answer": "Stomach sleeping can be beneficial in helping to relieve snoring by potentially keeping the airways more open compared to other sleep positions.",
+    "original_answer": "can help relieve snoring"
+  },
+  {
+    "question": "what do people with insomnia have difficulty doing?",
+    "answer": "People with insomnia often struggle with both initiating sleep at the beginning of the night and maintaining uninterrupted sleep throughout the night.",
+    "original_answer": "falling asleep or remaining asleep during the night"
+  },
+  {
+    "question": "what does napping reduce?",
+    "answer": "Napping can help reduce the immediate feeling or urgency to fall asleep, making it easier to stay awake and alert for a longer period of time.",
+    "original_answer": "the desire to sleep"
+  },
+  {
+    "question": "what are many cases of rls associated with?",
+    "answer": "Many cases of restless legs syndrome (RLS) are often associated with iron deficiency, as low levels of iron in the body can exacerbate RLS symptoms due to its impact on dopamine production in the brain.",
+    "original_answer": "iron deficiency"
+  },
+  {
+    "question": "what reduces total number of leg movements per hour?",
+    "answer": "Clonazepam is a medication known to reduce the total number of leg movements per hour, making it an effective treatment option for conditions such as restless legs syndrome.",
+    "original_answer": "clonazepam"
+  },
+  {
+    "question": "what can keep a person up at night?",
+    "answer": "Depression and anxiety can lead to difficulties falling asleep and staying asleep, as these mental health conditions often cause racing thoughts, excessive worry, and emotional distress that can disrupt a person's ability to achieve restful sleep.",
+    "original_answer": "depression and anxiety"
+  },
+  {
+    "question": "what does postprandial sleepiness refer to?",
+    "answer": "Postprandial sleepiness refers to the sensation of drowsiness or tiredness that individuals may experience after eating a meal.",
+    "original_answer": "the feeling of sleepiness after consuming food"
+  },
+  {
+    "question": "what are treatments for orthopnea focused on?",
+    "answer": "Treatment for orthopnea is primarily focused on alleviating symptoms such as difficulty breathing when lying down and addressing the root cause of the condition to effectively manage and improve the individual's quality of life.",
+    "original_answer": "minimizing symptoms and treating the underlying cause"
+  },
+  {
+    "question": "what is type 2 diabetes marked by?",
+    "answer": "Type 2 diabetes is characterized by symptoms such as an increase in thirst and the need to urinate frequently, indicating the body's inability to regulate blood sugar levels effectively.",
+    "original_answer": "an increase in thirst and need to urinate"
+  },
+  {
+    "question": "what does light exposure suppress?",
+    "answer": "Light exposure suppresses the production of melatonin, a hormone that regulates sleep-wake cycles and signals the body when it's time to sleep.",
+    "original_answer": "melatonin"
+  },
+  {
+    "question": "what is celliant fiber designed to do?",
+    "answer": "Celliant fiber is specifically engineered to harness the body's heat and convert it into infrared energy, which is known to potentially enhance circulation, regulate body temperature, and promote overall sleep quality and recovery.",
+    "original_answer": "convert body heat into fir"
+  },
+  {
+    "question": "what did white noise affect in adults?",
+    "answer": "White noise can impact the amount of time adults spend in various sleep stages, potentially improving overall sleep quality by promoting deeper and more restful restorative sleep.",
+    "original_answer": "the amount of time adults spent in different sleep stages"
+  },
+  {
+    "question": "what is the comfort layer?",
+    "answer": "The comfort layer refers to the topmost section of the mattress that is designed to provide cushioning and support to enhance sleep comfort and overall mattress feel.",
+    "original_answer": "the uppermost layer of the mattress"
+  },
+  {
+    "question": "what is the ideal bedroom temperature?",
+    "answer": "The ideal temperature range for a bedroom conducive to optimal sleep is typically between 66 and 70 degrees Fahrenheit, as this temperature range helps promote the body's natural cooling process and supports a comfortable sleep environment.",
+    "original_answer": "66 and 70 degrees fahrenheit"
+  },
+  {
+    "question": "why is it hard to know which natural sleep aids are safest?",
+    "answer": "It is challenging to determine the safest natural sleep aids due to the absence of definitive scientific data or conclusive evidence supporting their efficacy and safety profiles.",
+    "original_answer": "because of the lack of conclusive evidence"
+  },
+  {
+    "question": "what may women with postpartum depression feel?",
+    "answer": "Women experiencing postpartum depression may feel a sense of overwhelming anxiety, hopelessness, and an inability to muster the energy to get out of bed due to the emotional and mental challenges they are facing after giving birth.",
+    "original_answer": "overwhelmingly anxious, hopeless, and unable to get out of bed"
+  },
+  {
+    "question": "who may have reduced sleep spindle activity?",
+    "answer": "Individuals who have had a stroke may exhibit reduced sleep spindle activity, impacting the quality of their sleep.",
+    "original_answer": "people who experience a stroke"
+  },
+  {
+    "question": "what is the average lifespan of a mattress?",
+    "answer": "The average lifespan of a mattress typically ranges between 7 to 10 years, although factors like mattress quality, usage, and maintenance can influence its longevity.",
+    "original_answer": "between 7 and 10 years"
+  },
+  {
+    "question": "what is pressure relief determined by?",
+    "answer": "Pressure relief in a sleep surface is determined by a combination of factors including the specific materials used in its construction, the overall design and construction methods employed, as well as how effectively these various components interact and function together to alleviate pressure points and promote comfortable sleep.",
+    "original_answer": "the materials, construction, and how the components work together"
+  },
+  {
+    "question": "what does the support core contain?",
+    "answer": "The support core typically contains firmer materials, such as high-density foam or coils, that provide the necessary structure and support for the mattress.",
+    "original_answer": "firmer materials"
+  },
+  {
+    "question": "what affects nighttime sleep for babies?",
+    "answer": "Factors that influence nighttime sleep for babies include their daytime activities, routines, and experiences leading up to bedtime, as these aspects can greatly impact their ability to settle down and sleep well during the night.",
+    "original_answer": "what happens during the daytime and in the hours before bedtime"
+  },
+  {
+    "question": "what are sleep spindles are a hallmark of?",
+    "answer": "Sleep spindles are a hallmark of stage 2 non-rapid eye movement (NREM) sleep, representing bursts of brain activity that play a role in memory consolidation and maintaining stable sleep.",
+    "original_answer": "stage 2 nrem sleep"
+  },
+  {
+    "question": "when does travel fatigue go away?",
+    "answer": "Travel fatigue typically dissipates after a restorative night of sleep, allowing the body to recover and rejuvenate from the stress and disruptions of traveling.",
+    "original_answer": "after a good night's sleep"
+  },
+  {
+    "question": "what can be a stand-alone symptom of narcolepsy?",
+    "answer": "Disrupted nighttime sleep, characterized by frequent awakenings, difficulty maintaining sleep, or experiencing vivid dreams, can be a stand-alone symptom of narcolepsy.",
+    "original_answer": "disrupted nighttime sleep"
+  },
+  {
+    "question": "what does fibromyalgia primarily cause?",
+    "answer": "Fibromyalgia primarily causes widespread, chronic pain that is often described as undefined and can affect multiple areas of the body.",
+    "original_answer": "undefined pain in various parts of the body"
+  },
+  {
+    "question": "what is the main component of memory foam?",
+    "answer": "Memory foam, a type of viscoelastic foam known for its contouring properties and pressure-relieving benefits, is primarily composed of polyurethane, a material that allows for enhanced support and comfort during sleep.",
+    "original_answer": "polyurethane"
+  },
+  {
+    "question": "what does latex offer?",
+    "answer": "Latex mattresses offer a balanced level of contouring that molds to the body without excessive sinking, providing a supportive and comfortable sleep surface.",
+    "original_answer": "moderate contouring with minimal sinkage"
+  },
+  {
+    "question": "what does viscous mean in the context of memory foam?",
+    "answer": "In the context of memory foam, when we describe it as viscous, it means that it has a high resistance to change shape quickly under pressure, requiring a longer period to conform to the body's contours.",
+    "original_answer": "takes a long time to change shape under pressure"
+  },
+  {
+    "question": "what do many people with anxiety disorders attempt to avoid?",
+    "answer": "Many individuals with anxiety disorders often try to steer clear of situations that may potentially exacerbate their feelings of heightened worry and distress.",
+    "original_answer": "situations that could trigger heightened worry"
+  },
+  {
+    "question": "who can enjoy the greatest benefits from side sleeping?",
+    "answer": "Pregnant individuals, those diagnosed with obstructive sleep apnea, and individuals with back pain can experience significant benefits from side sleeping due to the potential improvements in breathing, spinal alignment, and circulation that this position can provide.",
+    "original_answer": "pregnant people, those who have obstructive sleep apnea, and people experiencing back pain"
+  },
+  {
+    "question": "what is essential for bodily recovery and repair?",
+    "answer": "A good night's rest is essential for bodily recovery and repair as it allows the body to enter into deep sleep stages, where tissue repair, muscle growth, and other essential physiological processes occur.",
+    "original_answer": "a good night's rest"
+  },
+  {
+    "question": "what must a mattress provide to be comfortable?",
+    "answer": "A comfortable mattress should offer a combination of balanced pressure relief to alleviate discomfort in various pressure points and proper spinal support to maintain alignment and reduce the risk of waking up with aches and pains.",
+    "original_answer": "balanced pressure relief and spinal support"
+  },
+  {
+    "question": "what is swaddling?",
+    "answer": "Swaddling is a traditional infant care practice that involves securely wrapping a baby in a blanket to provide a sense of comfort and mimic the feeling of being in the womb, which can help soothe and calm the baby.",
+    "original_answer": "a practice in which a baby is wrapped tightly in a blanket"
+  },
+  {
+    "question": "when does the first cycle of rem sleep begin?",
+    "answer": "The first cycle of REM sleep typically begins approximately 60 to 90 minutes after falling asleep, marking the initial stage in the sleep cycle where vivid dreams often occur and brain activity increases.",
+    "original_answer": "around 60 to 90 minutes after falling asleep"
+  },
+  {
+    "question": "what is coronasomnia?",
+    "answer": "Coronasomnia refers to the sleep disturbances and insomnia that many people are experiencing as a result of the stress, uncertainty, and disruptions to daily routines caused by the COVID-19 pandemic.",
+    "original_answer": "pandemic-related insomnia"
+  },
+  {
+    "question": "how does caffeine promote arousal?",
+    "answer": "Caffeine promotes arousal by blocking the effects of adenosine, a neurotransmitter that accumulates during the day and signals the brain when it's time to sleep, thereby disrupting the sleep-regulating process in the brain.",
+    "original_answer": "by affecting levels of adenosine, a substance that helps regulate sleep"
+  },
+  {
+    "question": "what is the main purpose of a support core?",
+    "answer": "The primary function of a support core within a mattress is to provide structural integrity and maintain proper spinal alignment by reinforcing the overall structure and preventing sagging over time.",
+    "original_answer": "the main purpose of a support core is to reinforce the mattress"
+  },
+  {
+    "question": "what negative effects occur during the transition from dst to standard time in november?",
+    "answer": "During the transition from daylight saving time to standard time in November, individuals not only experience sleep loss but also face an increased susceptibility to mood disturbances, higher risk of suicide, and are more likely to be involved in traffic accidents.",
+    "original_answer": "in addition to sleep loss, people are at greater risk of mood disturbance, suicide, and being involved in traffic accidents"
+  },
+  {
+    "question": "what sleep disorder can cause snoring?",
+    "answer": "Sleep apnea is a sleep disorder characterized by pauses in breathing or shallow breathing during sleep, which can lead to snoring as the airway becomes partially blocked, causing vibrations in the throat tissues.",
+    "original_answer": "sleep apnea"
+  },
+  {
+    "question": "what is the key first step for people who want to document or interpret dreams?",
+    "answer": "A crucial initial step for individuals interested in documenting or interpreting their dreams is to actively focus on and commit to remembering them upon waking, as this forms the foundation for further analysis and exploration of the subconscious mind.",
+    "original_answer": "remembering them is a key first step"
+  },
+  {
+    "question": "what is cortisol?",
+    "answer": "Cortisol is a hormone produced by the adrenal glands in response to stress, playing a crucial role in regulating various bodily functions and influencing the body's response to stress.",
+    "original_answer": "a hormone that impacts stress"
+  },
+  {
+    "question": "what may lead to a rem latency that is shorter or longer than usual?",
+    "answer": "Factors such as taking medication, experiencing sleep deprivation, or having a sleep disorder can result in a rapid eye movement (REM) latency that is either shorter or longer than the typical duration, impacting the normal sleep cycle.",
+    "original_answer": "medication, sleep deprivation, or sleep disorders"
+  },
+  {
+    "question": "what are the common culprits that can trigger a headache when you wake up?",
+    "answer": "Common culprits that can trigger a headache upon waking up include conditions such as sleep apnea, migraines, and insufficient sleep duration.",
+    "original_answer": "sleep apnea, migraine, and lack of sleep"
+  },
+  {
+    "question": "what is delayed sleep-wake phase disorder (dswpd)?",
+    "answer": "Delayed sleep-wake phase disorder (DSWPD) is a type of circadian rhythm sleep disorder characterized by a significant delay in the timing of a person's sleep schedule, with individuals experiencing a consistent shift in their sleep patterns to later hours, often by several hours.",
+    "original_answer": "a circadian rhythm disorder in which a person's sleep schedule is shifted later, often by a matter of hours"
+  },
+  {
+    "question": "how may exercise at night impact the proportion of restorative deep sleep?",
+    "answer": "Engaging in exercise at night may not necessarily hinder sleep quality or lead to morning grogginess; in fact, it could potentially enhance the amount of restorative deep sleep one experiences during the night.",
+    "original_answer": "exercise at night may not have such a negative impact on sleep or morning grogginess, and may even increase the proportion of restorative deep sleep"
+  },
+  {
+    "question": "what bodily function is faulty in rem sleep behavior disorder?",
+    "answer": "In rapid eye movement (REM) sleep behavior disorder, a condition where individuals act out their dreams, the lack of atonia, which is the normal paralysis of muscles during REM sleep, leads to the physical manifestation of dream content.",
+    "original_answer": "atonia, or paralyzation of the muscles"
+  },
+  {
+    "question": "when is drowsy driving most likely to occur?",
+    "answer": "Drowsy driving is most likely to occur between midnight and 6 am or in the late afternoon when most people are naturally sleepier due to the body's circadian rhythm and the post-lunch dip in alertness.",
+    "original_answer": "between midnight and 6 am or in the late afternoon, when most people are naturally sleepier"
+  },
+  {
+    "question": "what factors can influence the results of a multiple sleep latency test (mslt)?",
+    "answer": "Factors that can influence the results of a multiple sleep latency test (MSLT) include recent sleep deprivation, medication use, and activity level, all of which can impact a person's ability to fall asleep quickly during the test.",
+    "original_answer": "recent sleep deprivation, medication use, and activity level"
+  },
+  {
+    "question": "how long does an average newborn baby sleep for over each 24-hour period?",
+    "answer": "An average newborn baby typically sleeps for approximately 16 to 17 hours within each 24-hour period, with sleep being crucial for their growth and development during this early stage of life.",
+    "original_answer": "between 16 and 17 hours"
+  },
+  {
+    "question": "what do researchers often do to better identify health disparities?",
+    "answer": "Researchers often employ broad categories of race and ethnicity to better identify health disparities, using these demographic variables as a starting point for understanding how social determinants may influence health outcomes across different population groups.",
+    "original_answer": "researchers often employ broad categories of race and ethnicity"
+  },
+  {
+    "question": "what are dreams?",
+    "answer": "Dreams are a complex and often surreal combination of images, thoughts, and emotions that occur during different stages of sleep, reflecting the brain's processing of memories, emotions, and experiences.",
+    "original_answer": "images, thoughts, or feelings that occur during sleep"
+  },
+  {
+    "question": "how can hyperthyroidism cause difficulty sleeping?",
+    "answer": "Hyperthyroidism can lead to difficulty sleeping due to the frequent arousals caused by symptoms such as nervousness and irritability, in addition to muscle weakness and persistent feelings of tiredness that disrupt the sleep cycle.",
+    "original_answer": "arousals from nervousness or irritability, as well as muscle weakness and constant feelings of tiredness"
+  },
+  {
+    "question": "what effects on children can frequent naps lead to?",
+    "answer": "Frequent naps in children can lead to noticeable improvements in behavior, academic performance, and overall well-being, as indicated by positive signs such as enhanced behavior, better academic achievement, and increased happiness levels.",
+    "original_answer": "signs of better behavior, academic achievement, and overall happiness"
+  },
+  {
+    "question": "what are the two main characteristics of insomnia?",
+    "answer": "Insomnia is characterized by the persistent difficulty falling asleep or staying asleep despite having the opportunity to do so, and it is often accompanied by daytime impairments resulting from the lack of adequate sleep.",
+    "original_answer": "the inability to sleep despite the opportunity for it, along with daytime impairments caused by such sleep loss"
+  },
+  {
+    "question": "what type of mattresses are coil support cores mainly found in?",
+    "answer": "Coil support cores are predominantly found in innerspring mattresses and hybrid mattresses, which combine coil support with other materials like memory foam or latex for enhanced comfort and support.",
+    "original_answer": "innerspring and hybrid mattresses"
+  },
+  {
+    "question": "what is the estimated proportion of adults that suffer from insomnia?",
+    "answer": "Approximately 30% of adults are estimated to experience insomnia, which is a common sleep disorder characterized by difficulty falling asleep, staying asleep, or waking up too early.",
+    "original_answer": "around 30%"
+  },
+  {
+    "question": "what are some of the ways to support a baby's sleep?",
+    "answer": "Establishing consistent bedtime routines, maintaining a set sleep schedule, and implementing appropriate sleep training methods are effective ways to support a baby's sleep and promote healthy sleep habits.",
+    "original_answer": "consistent bedtime routines, a set sleep schedule, and sleep training"
+  },
+  {
+    "question": "when does a woman's risk of sleep-disordered breathing increase?",
+    "answer": "A woman's risk of sleep-disordered breathing typically increases during menopause due to hormonal changes and the associated physiological effects on the upper airway muscles and overall sleep architecture.",
+    "original_answer": "during menopause"
+  },
+  {
+    "question": "when should you consider delaying the transition from a crib to a bed for a toddler?",
+    "answer": "Consider delaying the transition from a crib to a bed for your toddler if they are in the midst of potty training, starting daycare, or experiencing a significant family move, as these transitions can be overwhelming and it's important to maintain a sense of security and routine for their sleep stability.",
+    "original_answer": "if your toddler is in the middle of potty training, or another big transition like starting daycare or a family move"
+  },
+  {
+    "question": "what can contribute significantly to the overall feel and performance of a mattress?",
+    "answer": "The materials utilized in the support core of a mattress can have a substantial impact on its overall comfort, durability, and supportiveness, playing a crucial role in influencing how well the mattress performs and feels to the sleeper.",
+    "original_answer": "the materials used in the support core"
+  },
+  {
+    "question": "what is the best way to prevent drowsy driving accidents?",
+    "answer": "To prevent drowsy driving accidents, ensuring that you get an adequate amount of sleep each night is crucial as it helps to maintain alertness and reduce the risk of fatigue-related accidents on the road.",
+    "original_answer": "get enough sleep"
+  },
+  {
+    "question": "what can interfere with sleep in people with covid-19?",
+    "answer": "Symptoms such as cough and fever commonly experienced by individuals with COVID-19 can disrupt sleep patterns, along with the potential impact of certain medications used to manage the illness.",
+    "original_answer": "symptoms like cough and fever as well as the use of some medications"
+  },
+  {
+    "question": "how can music promote sleep?",
+    "answer": "Music can promote sleep by establishing a healthy bedtime habit that helps calm the mind and body, reduce stress, and create a soothing environment conducive to falling asleep.",
+    "original_answer": "by becoming a healthy bedtime habit"
+  },
+  {
+    "question": "what proportion of people suffering from depression report experiencing at least one symptom of insomnia?",
+    "answer": "Approximately 80% of individuals with depression report experiencing at least one symptom of insomnia, highlighting the significant overlap between these two conditions.",
+    "original_answer": "80%"
+  },
+  {
+    "question": "what should you think about if you want to replace or upgrade your bed?",
+    "answer": "When considering replacing or upgrading your bed, it's crucial to take into account factors such as your preferred sleep position, body weight, and any other personal sleep preferences to ensure optimal comfort and support for a restful night's sleep.",
+    "original_answer": "it's important to think about your sleep position, body weight, and other personal sleep preferences"
+  },
+  {
+    "question": "what are some of the products that can help you change your sleep position?",
+    "answer": "Vibrating devices can be used to discourage back sleeping, while specially designed pillows can help promote side sleeping, both of which are helpful products for changing sleep positions.",
+    "original_answer": "vibrating devices to prevent back sleeping and special pillows designed to encourage side sleeping"
+  },
+  {
+    "question": "what is the purpose of a wind-down routine?",
+    "answer": "A wind-down routine serves the purpose of helping individuals establish a consistent habit of relaxation before bedtime, signaling to their body that it is time for sleep and promoting a smoother transition into a restful state.",
+    "original_answer": "to get more in that habit of relaxing so their body knows sleep is coming"
+  },
+  {
+    "question": "how long do most humans dream for each night?",
+    "answer": "Most humans typically experience approximately two hours of dreaming during a typical night of sleep, as dreams occur during the REM (Rapid Eye Movement) stage of the sleep cycle, which usually lasts for around 20% of the total sleep time.",
+    "original_answer": "most humans dream for at least two hours each night"
+  },
+  {
+    "question": "what are nightmares?",
+    "answer": "Nightmares are intense and distressing dreams that often evoke strong feelings of fear, anxiety, or sadness, disrupting sleep and causing significant emotional distress.",
+    "original_answer": "an unsettling or frightening type of vivid dream"
+  },
+  {
+    "question": "how long do most newborn babies sleep for on average?",
+    "answer": "On average, most newborn babies sleep for approximately 16 to 17 hours per day, as sleep is crucial for their growth, development, and overall well-being during this early stage of life.",
+    "original_answer": "16 to 17 hours"
+  },
+  {
+    "question": "what type of therapy do sleep psychologists most often use to help reduce unhelpful thoughts about sleep and increase sleep-supporting behaviors?",
+    "answer": "Sleep psychologists most often utilize cognitive behavioral therapy (CBT) to assist individuals in reducing unhelpful thoughts about sleep and fostering behaviors that support better sleep quality.",
+    "original_answer": "cognitive behavioral therapy (cbt)"
+  },
+  {
+    "question": "what stage of sleep do the most vivid dreams occur during?",
+    "answer": "During the REM (Rapid Eye Movement) stage of sleep, which is characterized by increased brain activity and vivid dreaming, individuals typically experience their most intense and memorable dreams.",
+    "original_answer": "rem sleep"
+  },
+  {
+    "question": "what might contribute to discomfort while back sleeping?",
+    "answer": "Discomfort while back sleeping can be exacerbated by using an old mattress and pillow, as they may not provide adequate support and alignment for the spine, leading to aches and pains in the neck, back, and shoulders.",
+    "original_answer": "an old mattress and pillow"
+  },
+  {
+    "question": "what type of pillow helps back sleepers keep their neck on the same plane as the spine?",
+    "answer": "A medium-high pillow is ideal for back sleepers as it helps maintain proper alignment by supporting the neck and keeping it in line with the spine to prevent strain and discomfort.",
+    "original_answer": "a medium-high pillow"
+  },
+  {
+    "question": "what is the cause of obesity-hypoventilation syndrome (ohs)?",
+    "answer": "Obesity-hypoventilation syndrome (OHS) is a condition that arises from a combination of various intricate physiological mechanisms within the body, rather than being attributed to a singular, straightforward cause.",
+    "original_answer": "obesity-hypoventilation syndrome (ohs) stems from multiple complex processes in the body rather than a single, clear-cut cause"
+  },
+  {
+    "question": "how many hours of sleep per night constitutes sleep deprivation?",
+    "answer": "Sleep deprivation is typically defined as getting less than seven hours of sleep per night, which can lead to cognitive impairment, mood disturbances, and overall reduced well-being.",
+    "original_answer": "<7 hours of sleep per night"
+  },
+  {
+    "question": "what does sleep hygiene refer to?",
+    "answer": "Sleep hygiene refers to the series of practices and habits, such as maintaining a regular sleep schedule, creating a comfortable sleep environment, and avoiding stimulants before bedtime, that are aimed at promoting a consistent, uninterrupted, and restorative sleep experience.",
+    "original_answer": "practices and habits that promote consistent, uninterrupted and restorative sleep"
+  },
+  {
+    "question": "how does music improve sleep?",
+    "answer": "Music improves sleep by engaging with the autonomic nervous system, which regulates involuntary bodily functions like breathing and heart rate, ultimately promoting relaxation and creating a conducive environment for slower breathing, decreased heart rate, and lower blood pressure levels.",
+    "original_answer": "through calming parts of the autonomic nervous system, leading to slower breathing, lower heart rate, and reduced blood pressure"
+  },
+  {
+    "question": "what are some examples of adult adhd sleep problems?",
+    "answer": "Adults with ADHD often experience sleep problems such as forgetfulness and difficulty concentrating, making it challenging for them to maintain optimal cognitive function and memory consolidation during sleep.",
+    "original_answer": "forgetfulness and difficulty concentrating"
+  },
+  {
+    "question": "what conditions are people who consistently sleep for more than nine or 10 hours per night more likely to have?",
+    "answer": "People who consistently sleep for more than nine or 10 hours per night are at a higher risk of developing obesity or a mood disorder due to the potential disruptions in hormonal balance, metabolism, and mental health associated with prolonged excessive sleep duration.",
+    "original_answer": "obesity or a mood disorder"
+  },
+  {
+    "question": "where is the internal clock located within the body?",
+    "answer": "The internal clock, responsible for regulating the body's circadian rhythm, is located within the brain's hypothalamus, specifically in an area known as the suprachiasmatic nucleus.",
+    "original_answer": "the brain's hypothalamus"
+  },
+  {
+    "question": "what is the normal resting heart rate?",
+    "answer": "The normal resting heart rate typically falls within the range of 60 to 100 beats per minute, indicating a healthy cardiovascular condition.",
+    "original_answer": "60 to 100 bpm"
+  },
+  {
+    "question": "what disorder could be a manifestation of dysfunctional sleep?",
+    "answer": "Attention Deficit Hyperactivity Disorder (ADHD) can sometimes be a manifestation of dysfunctional sleep patterns, as sleep disturbances can exacerbate symptoms of ADHD and impact cognitive functions.",
+    "original_answer": "adhd"
+  },
+  {
+    "question": "what are the options for mattresses that are compatible with adjustable beds?",
+    "answer": "Foam, latex, and hybrid models are the most common types of mattresses that are compatible with adjustable beds, offering a range of options for individuals seeking customizable comfort and support.",
+    "original_answer": "foam, latex, and hybrid models"
+  },
+  {
+    "question": "how does sleep affect mood swings?",
+    "answer": "Sleep plays a crucial role in regulating emotions and reducing mood swings by allowing the brain to process and consolidate emotions effectively, leading to improved emotional stability and well-being.",
+    "original_answer": "reduces mood swings"
+  },
+  {
+    "question": "what does sleep allow humans to do?",
+    "answer": "Sleep allows humans to recharge their energy levels, consolidate memories from the day, and engage in essential physical and mental processes that facilitate the repair and rejuvenation of the body.",
+    "original_answer": "recharge, consolidate memories, and repair the body"
+  },
+  {
+    "question": "who takes the data from a sleep study?",
+    "answer": "During a sleep study, a trained sleep technologist is responsible for collecting and monitoring the data throughout the duration of the examination.",
+    "original_answer": "technologist"
+  },
+  {
+    "question": "what is a first step to addressing the causes of nightmares?",
+    "answer": "Understanding the distinctions between bad dreams, nightmares, and nightmare disorder is crucial as a first step in effectively identifying and addressing the underlying causes of nightmares, allowing for a more targeted approach to managing and potentially reducing their occurrence.",
+    "original_answer": "knowing the differences between bad dreams, nightmares, and nightmare disorder is a first step to addressing the causes of nightmares"
+  },
+  {
+    "question": "what does blue light interfere with?",
+    "answer": "Blue light interferes with natural sleep cycles by disrupting the production of the sleep hormone melatonin, which can lead to difficulties falling asleep and obtaining restful sleep.",
+    "original_answer": "natural sleep cycles"
+  },
+  {
+    "question": "what can the edge support of a mattress be particularly important for?",
+    "answer": "The edge support of a mattress is especially crucial for individuals dealing with back pain, joint pain, and mobility issues, as a sturdy edge prevents sagging and allows them the necessary time to stand up comfortably and safely without feeling rushed or unstable.",
+    "original_answer": "for those with back pain, joint pain, and mobility issues, who need time to stand up at their own pace without edge sagging forcing the issue"
+  },
+  {
+    "question": "when do most toddlers in general make the move from a crib to a bed?",
+    "answer": "Most toddlers typically transition from a crib to a bed between the ages of 18 months and 3 years old, as this period is commonly when they start showing signs of readiness for the change in sleeping arrangements.",
+    "original_answer": "between the age of 18 months and 3 years old"
+  },
+  {
+    "question": "what is sleep hygiene?",
+    "answer": "Sleep hygiene refers to the set of behaviors and habits practiced during the day and at night that are aimed at promoting a consistent and healthy sleep-wake cycle, which includes practices such as maintaining a regular sleep schedule, creating a comfortable sleep environment, and avoiding stimulants close to bedtime.",
+    "original_answer": "behaviors during the day and at night that help promote a regular sleep-wake cycle"
+  },
+  {
+    "question": "what happens each time a person with osa experiences airway collapse and briefly stops breathing during sleep?",
+    "answer": "Each time a person with obstructive sleep apnea experiences airway collapse and briefly stops breathing during sleep, their sympathetic nervous system becomes activated, leading to a rapid spike in blood pressure once normal breathing resumes.",
+    "original_answer": "their sympathetic nervous system becomes activated and blood pressure rapidly spikes when they resume breathing"
+  },
+  {
+    "question": "how many hours of sleep should infants (4-11 months old) get according to the guidelines from the nsf?",
+    "answer": "Infants aged 4-11 months old should aim to get between 12 and 15 hours of sleep per day, as recommended by the National Sleep Foundation guidelines for optimal growth and development during this crucial stage of early childhood.",
+    "original_answer": "between 12 and 15 hours of sleep per day"
+  },
+  {
+    "question": "what are the effects of sleeping on a dirty bed?",
+    "answer": "Sleeping on a dirty bed can lower the quality of your sleep by causing you to wake up feeling tired and congested due to the accumulation of allergens, dust mites, and bacteria that can irritate your respiratory system and disrupt your rest.",
+    "original_answer": "can decrease your sleep quality and leave you waking up feeling tired and congested."
+  },
+  {
+    "question": "how will feeding additional solid food to children before bed affect their wakefulness during the night?",
+    "answer": "Feeding additional solid food to your child before bed will not decrease wakefulness during the night because the digestion process can actually disrupt sleep by causing discomfort or indigestion, potentially leading to more frequent awakenings.",
+    "original_answer": "feeding additional solid food to your child will not decrease wakefulness during the night"
+  },
+  {
+    "question": "what can sleep-related hypoventilation increase your risk of?",
+    "answer": "Sleep-related hypoventilation can increase your risk of developing conditions such as pulmonary artery hypertension, right-sided heart failure (cor pulmonale), and neurocognitive disorders due to inadequate oxygen levels during sleep.",
+    "original_answer": "pulmonary artery hypertension, right-sided heart failure (cor pulmonale), and neurocognitive disorders"
+  },
+  {
+    "question": "what is oversleeping?",
+    "answer": "Oversleeping refers to the act of sleeping for more than the recommended duration of eight to 10 hours a day, which can lead to feelings of grogginess, lethargy, and negatively impact overall sleep quality.",
+    "original_answer": "sleeping for more than eight to 10 hours a day"
+  },
+  {
+    "question": "what are the effects of drowsiness after sleep deprivation?",
+    "answer": "Drowsiness resulting from sleep deprivation can not only increase the risk of accidents but also impair physical performance, negatively impact memory function, and even heighten the likelihood of experiencing false memories.",
+    "original_answer": "can put you at risk for accidents, impair your physical performance, and hurt your memory, even increasing the likelihood of developing false memories"
+  },
+  {
+    "question": "how can sleep be used to cope with the stressors of a person's life?",
+    "answer": "One effective way individuals can manage the stressors in their lives is by prioritizing and improving their sleep quality, as better sleep can help enhance resilience and provide the mental and physical restoration needed to cope with daily stressors.",
+    "original_answer": "achieving better sleep is one way to cope with its stressors"
+  },
+  {
+    "question": "how can you use a pillow to help you sleep on your back?",
+    "answer": "To promote optimal spinal alignment and comfort while sleeping on your back, consider placing a supportive pillow under your knees before bedtime, which can help relieve pressure on your lower back and enhance relaxation.",
+    "original_answer": "place a supportive pillow under your knees before bed"
+  },
+  {
+    "question": "what can having multiple sleep problems increase middle-aged adults' risk of?",
+    "answer": "Having multiple sleep problems can increase the risk of developing heart disease in middle-aged adults, as conditions like sleep apnea, insomnia, and restless leg syndrome can contribute to elevated blood pressure, inflammation, and other cardiovascular risk factors.",
+    "original_answer": "developing heart disease"
+  },
+  {
+    "question": "when should you delay the transition to a bed for a toddler?",
+    "answer": "It is recommended to delay the transition from a crib to a bed until your child is closer to 3 years old to ensure they have developed the necessary cognitive and physical skills for a smooth and safe transition.",
+    "original_answer": "it is better to delay the transition to when your child is closer to 3 years old"
+  },
+  {
+    "question": "what type of pillow is best for side sleepers?",
+    "answer": "For side sleepers, it is recommended to use a relatively firm and thick pillow that can adequately support the head and neck, filling the gap between the neck and shoulders to maintain proper spinal alignment and reduce strain.",
+    "original_answer": "a relatively firm, thick pillow that can fill the gap between the neck and shoulders"
+  },
+  {
+    "question": "how may regularly listening to music at bedtime affect sleep quality?",
+    "answer": "Regularly listening to music at bedtime may be more effective at improving sleep quality as it can help relax the mind and body, creating a soothing bedtime routine that promotes better rest.",
+    "original_answer": "regular listening may be more effective at improving sleep quality"
+  },
+  {
+    "question": "how can we assess how well the edges of a mattress support a sleeper?",
+    "answer": "To assess how well the edges of a mattress support a sleeper, our tester can lie in the center of the mattress and incrementally move towards the perimeter, adjusting a consistent amount each time and pausing to evaluate the support in each new position.",
+    "original_answer": "by asking our tester to lie in the center of the mattress and gradually inch towards the perimeter, moving approximately the same amount with each adjustment and then pausing in the new position"
+  },
+  {
+    "question": "what is the goal of light therapy?",
+    "answer": "The goal of light therapy is to use specific wavelengths and intensities of light to positively influence our internal body clock, known as the circadian rhythm, which governs our sleep-wake cycle and overall biological processes.",
+    "original_answer": "to positively affect circadian rhythm"
+  },
+  {
+    "question": "how common are fatigue and sleepiness complaints when people go see a doctor?",
+    "answer": "Fatigue and sleepiness complaints are frequently reported by individuals seeking medical attention, ranking among the top seven most common reasons for doctor visits.",
+    "original_answer": "the most common complaints that people have when they go to see a doctor, one of them is fatigue and sleepiness, that's in the top seven"
+  },
+  {
+    "question": "how can you combat mold growth?",
+    "answer": "To combat mold growth effectively, it is crucial to maintain proper ventilation in living spaces and to prevent excess humidity buildup, as these conditions create an environment that discourages mold growth.",
+    "original_answer": "ensuring proper ventilation and avoiding excess humidity"
+  },
+  {
+    "question": "what is an example of a recyclable and valuable material that mattresses may contain?",
+    "answer": "An example of a recyclable and valuable material that mattresses may contain is steel, which can be repurposed and reused in various industries after the mattress is dismantled and recycled.",
+    "original_answer": "steel"
+  },
+  {
+    "question": "what is the support core of a waterbed composed of?",
+    "answer": "The support core of a waterbed is typically composed of water bladders, which are the main structural elements responsible for providing the buoyant support and customizable firmness levels in a waterbed mattress.",
+    "original_answer": "water bladders"
+  },
+  {
+    "question": "when would more slow wave sleep be needed?",
+    "answer": "More slow wave sleep would be needed to facilitate optimal recovery specifically following prolonged wakefulness or engaging in complex and demanding cognitive tasks that require a deeper level of processing and consolidation during sleep.",
+    "original_answer": "more slow wave sleep is needed to recover after either more time spent awake, or a more intensive learning process"
+  },
+  {
+    "question": "when should you be in touch with your doctor regarding sleep problems?",
+    "answer": "If you are experiencing persistent, progressively worsening sleep issues that impact your daily functioning and quality of life while awake, it is advisable to seek guidance from your doctor to address these concerns effectively.",
+    "original_answer": "if you have sleep problems that are ongoing, worsening, or affecting you during waking hours"
+  },
+  {
+    "question": "what disease may be a predisposing factor for restless legs syndrome (rls)?",
+    "answer": "Thyroid disease can be a predisposing factor for restless legs syndrome (RLS), as disruptions in thyroid hormone levels can affect neurotransmitter functions and contribute to the development of RLS symptoms.",
+    "original_answer": "thyroid disease"
+  },
+  {
+    "question": "what may you want to consider when disposing of a mattress if you are mindful of the environment?",
+    "answer": "When disposing of a mattress with environmental mindfulness, it's important to explore disposal alternatives such as recycling or reusing components to minimize waste and reduce environmental impact.",
+    "original_answer": "disposal alternatives that include recycling or reusing parts"
+  },
+  {
+    "question": "what is an important step toward improving sleep for people with adhd?",
+    "answer": "An important step toward improving sleep for individuals with ADHD is to address and treat any underlying sleep disorders that may be contributing to their sleep difficulties, as managing these conditions can significantly enhance their overall sleep quality and well-being.",
+    "original_answer": "treating underlying sleep disorders"
+  },
+  {
+    "question": "what is tolerance for ambiguity?",
+    "answer": "Some dreamers may exhibit a tolerance for ambiguity by interpreting ambiguous dreams in a positive or desirable light, showcasing their ability to embrace uncertainty and find meaning in the unknown aspects of their dream experiences.",
+    "original_answer": "some dreamers interpret ambiguous dreams as positive or desirable"
+  },
+  {
+    "question": "what are the positive effects of getting enough sleep?",
+    "answer": "Getting an adequate amount of sleep is beneficial as it can help decrease inflammation in the body, support weight management, and enhance various aspects of health such as mental well-being and memory retention.",
+    "original_answer": "getting enough sleep can help reduce inflammation, make it easier to maintain a healthy weight, and improve everything from mental health to memory"
+  },
+  {
+    "question": "what plays a crucial role in helping our bodies establish a stable sleep pattern?",
+    "answer": "Exposure to light, particularly natural light during the day and avoiding bright artificial light at night, plays a crucial role in helping our bodies establish a stable sleep pattern by regulating our internal body clock, also known as the circadian rhythm.",
+    "original_answer": "exposure to light"
+  },
+  {
+    "question": "what health conditions can be linked to untreated sleep apnea?",
+    "answer": "Untreated sleep apnea can be associated with an increased risk of developing serious health conditions such as heart disease, stroke, and diabetes, highlighting the importance of diagnosing and managing this sleep disorder to prevent potential complications.",
+    "original_answer": "heart disease, stroke, and diabetes."
+  },
+  {
+    "question": "what is the best way to get over jet lag?",
+    "answer": "To effectively overcome jet lag, it is crucial to proactively implement preventive measures such as adjusting your sleep schedule before traveling and staying hydrated during the flight.",
+    "original_answer": "to take steps to prevent it"
+  },
+  {
+    "question": "what have studies found about sleeping in on the weekends?",
+    "answer": "Sleeping in on the weekends can disrupt your circadian rhythm, as irregular sleep patterns can confuse your body's internal clock, leading to potential difficulties with falling asleep and waking up at consistent times throughout the week.",
+    "original_answer": "can disrupt your circadian rhythm"
+  }
+]
